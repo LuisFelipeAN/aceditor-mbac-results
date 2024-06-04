@@ -1,3 +1,5 @@
 [submodule "ODEv2"]
 	path = ODEv2
 	url = https://github.com/DEIS-Project-EU/ODEv2
+	branch = master
+   	ignore = dirty
