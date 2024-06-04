@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sacm2:AssuranceCasePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sacm2="http://SACM_ACEditor/sacm/2.1" gid="Case Study Assurance Case" isAbstract="true">
+  <assuranceCasePackage gid="SystemACP" isAbstract="true">
+    <description gid="DescSystemACP">
+      <content>
+        <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.23"/>
+      </content>
+    </description>
+    <implementationConstraint gid="MultSystemACP" type="Multiplicity">
+      <content>
+        <value lang="Multiplicity:EOL" content="systemX"/>
+      </content>
+    </implementationConstraint>
+    <argumentPackage gid="HazardAvoidance" isAbstract="true">
+      <description gid="DescHazardAvoidance">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.0"/>
+        </content>
+      </description>
+      <implementationConstraint gid="MultHazardAvoidance" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:EOL" content="systemX"/>
+        </content>
+      </implementationConstraint>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim SysSafe" isAbstract="true">
+        <description gid="DescClaimSysSafe">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.12"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaimSysSafe" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim SafetyStandard" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaimSafetyStandard">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.18"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaimSafetyStandard" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim OperationalEnv" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaimOperationalEvn">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.13"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaimOperationalEnv" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim SysDef" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaimSysDef">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.14"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaimSysDef" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="RiskHzdX" isCitation="true" isAbstract="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.0" assertionDeclaration="asCited">
+        <description gid="DescRiskHzdX">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="RelationshipHazardDecomposition" isAbstract="true" reasoning="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.6" source="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.4" target="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.0">
+        <description gid="DescRelationshipHazardDecomposition">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultRelationshipHazardDecomposition" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="sysHazardDecomposition">
+        <description gid="DescSystemHazardDecoposition">
+          <content>
+            <value lang="English" content="Argument over the risk posed by the identified hazards"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="RelationshipEnvAndSysDef" isAbstract="true" source="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.0">
+        <description gid="DescRelationshipEnvAndSysDef">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultiplicityRelationshipEnvAndSysDef" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="RelationshipIdentHzd" isAbstract="true" source="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.10" target="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.6">
+        <description gid="DescRelationshipIdentHzd">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultRelationshipIdentHzd" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafetyStandard" isAbstract="true" source="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.0">
+        <description gid="descRelationshipSafetyStandard">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultrelationshipSafetyStandard" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArtifactReference" gid="ArtRef IdentHzds" isAbstract="true">
+        <description gid="DescArtRef IdentHzds">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.17"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultArtRef IdentHzds" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+    </argumentPackage>
+    <argumentPackage gid="RiskArgument" isAbstract="true">
+      <description gid="DescRiskArgumentPackage">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.28"/>
+        </content>
+      </description>
+      <implementationConstraint gid="MultRiskArgument" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:EOL" content="hazard"/>
+        </content>
+      </implementationConstraint>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RiskHazard" isAbstract="true">
+        <description gid="DescClaimRiskHazard">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.31"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaimRiskHazard" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HzdSafeReq" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HzdSafeReq">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.32"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim HzdSafeReq" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim FailureCond" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaim FailureCond">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.33"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim FailureCond" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim CompConfig" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaim CompConfig">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.49"/>
+          </content>
+        </description>
+        <implementationConstraint gid="Mult Claim CompConfig" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim CausalAnalysis" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaim CausalAnalysis">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.38"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim CausalAnalysis" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverMtgContrFailures" isAbstract="true">
+        <description gid="DescArgOverMtgContrFailures">
+          <content>
+            <value lang="English" content="Argument over the mitigation of contributing failure modes of components"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="cideAbsHSFM" isCitation="true" isAbstract="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0" assertionDeclaration="asCited">
+        <description gid="DescCiteHSFM"/>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHzdAndHSFM" isAbstract="true" reasoning="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.5" source="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.6" target="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.0">
+        <implementationConstraint gid="MultrelationshipHzdAndHSFM" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipHzdComponentsAndCausalAnalysis" isAbstract="true" source="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.4 //@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.5">
+        <description gid="DescrelationshipHzdComponentsAndCausalAnalysis">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultrelationshipHzdComponentsAndCausalAnalysis" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipHzdSilAndCondition" isAbstract="true" source="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.0">
+        <description gid="DescrelationshipHzdSilAndCondition">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultrelationshipHzdSilAndCondition" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM" isAbstract="true">
+      <description gid="DescAbsHSFM">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.44"/>
+        </content>
+      </description>
+      <implementationConstraint gid="MultAbsHSFM" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:EOL" content="HSFMType"/>
+        </content>
+      </implementationConstraint>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType" isAbstract="true">
+        <description gid="DescClaim AbsHSFMType">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.48"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim AbsHSFMType" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim CauseHSFMType" isAbstract="true">
+        <description gid="DescClaim CauseHSFMType">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.60"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim CauseHSFMType" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.66"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim ContextCSF" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc" isAbstract="true">
+        <description gid="DescClaim ContribSWFunc">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.77"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim ContribSWFunc" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim SafeReqCSF" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaim SafeReqCSF">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.100"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim SafeReqCSF" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.44"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim HSFM" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AllCauses" isAbstract="true" assertionDeclaration="axiomatic">
+        <description gid="DescClaim AllCauses">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.73"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim AllCauses" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc">
+        <description gid="DescFailureMerc">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary" isAbstract="true" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.78"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim AbsTypePrimary" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary" isAbstract="true">
+        <description gid="DescClaim AbsTypeSecondary">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.91"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim AbsTypeSecondary" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl" isAbstract="true" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.85"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim AbsTypeControl" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFMAccept" isAbstract="true" assertionDeclaration="needsSupport">
+        <description gid="DescClaim HSFMAccept">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.96"/>
+          </content>
+        </description>
+        <implementationConstraint gid="MultClaim HSFMAccept" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib" isAbstract="true" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.3 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.4" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultrelationshipSafeReqHSFMContrib" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS" isAbstract="true" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultrelationshipCauseHFMContextCFS" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses">
+        <description gid="DescArgOverSWFuncCauses">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl" isAbstract="true" reasoning="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.7" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.8 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.9 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.10" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultrelationshipPrimarySecondaryControl" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM" isAbstract="true" reasoning="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.14" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.11 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.18" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.9">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM">
+          <content/>
+        </description>
+        <implementationConstraint gid="MultrelationshipHSFMAcceptABSHSFM" type="Multiplicity">
+          <content>
+            <value lang="Multiplicity:" content="Dummy"/>
+          </content>
+        </implementationConstraint>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses" isAbstract="true" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.6" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.7">
+        <description>
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM" isCitation="true" isAbstract="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+  </assuranceCasePackage>
+  <terminologyPackage gid="TerminologyPackage" isAbstract="true">
+    <description gid="DesTerminologyPakage">
+      <content>
+        <value lang="English" content="This package contains all terms and expressions"/>
+      </content>
+    </description>
+    <terminologyElement xsi:type="sacm2:Term" gid="systemX" isAbstract="true" value="systemX" externalReference="/faulttree/system.xml">
+      <name lang="English" content="systemX"/>
+      <description gid="DescsystemX">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultSystemX" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingSystemX" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!t_system.all.collect(s|s.a_name)"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="is" value="is">
+      <name lang="English" content="is"/>
+      <description gid="Descis">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="acceptably" value="acceptably">
+      <name lang="English" content="acceptably"/>
+      <description gid="Descacceptably">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="safe" value="safe">
+      <name lang="English" content="safe"/>
+      <description gid="Descsafe">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="to" value="to">
+      <name lang="English" content="to"/>
+      <description gid="Descto">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="operate" value="operate">
+      <name lang="English" content="operate"/>
+      <description gid="Descoperate">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="in" value="in">
+      <name lang="English" content="in"/>
+      <description gid="Descin">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="the" value="the">
+      <name lang="English" content="the"/>
+      <description gid="Descthe">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="specified" value="specified">
+      <name lang="English" content="specified"/>
+      <description gid="Descspecified">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="env" value="env">
+      <name lang="English" content="env"/>
+      <description gid="Descenv">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isacceptablysafetooperateinthespecifiedenv" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.2 //@terminologyPackage.0/@terminologyElement.3 //@terminologyPackage.0/@terminologyElement.4 //@terminologyPackage.0/@terminologyElement.5 //@terminologyPackage.0/@terminologyElement.6 //@terminologyPackage.0/@terminologyElement.7 //@terminologyPackage.0/@terminologyElement.8 //@terminologyPackage.0/@terminologyElement.9">
+      <name lang="English" content="isacceptablysafetooperateinthespecifiedenv"/>
+      <description gid="Descisacceptablysafetooperateinthespecifiedenv">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="." value=".">
+      <name lang="English" content="."/>
+      <description gid="Desc.">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expClaimSysSafe0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.10 //@terminologyPackage.0/@terminologyElement.11">
+      <name lang="English" content="0"/>
+      <description gid="descExpSysSafe">
+        <content/>
+      </description>
+      <implementationConstraint gid="multExpClaimSysSafe" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="operationalEnvironment" isAbstract="true" value="operationalEnvironment" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
+      <description gid="desOperationalEnviroment">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultOperationalEnviroment" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingOperationalEnviroment" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!t_system.all.selectOne(s|s.a_name=&quot;$originValue&quot;).a_enviroment"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="systemDefinition" isAbstract="true" value="systemDefinition" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
+      <description gid="descSystemDefinition">
+        <content/>
+      </description>
+      <implementationConstraint gid="multSystemDefinition" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingSystemDefinition" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!t_system.all.selectOne(s|s.a_name=&quot;$originValue&quot;).a_sysDef"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Identified" value="Identified">
+      <name lang="English" content="Identified"/>
+      <description gid="DescIdentified">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazards" value="hazards">
+      <name lang="English" content="hazards"/>
+      <description gid="Deschazards">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expIdentHzds0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.15 //@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.16">
+      <name lang="English" content="expIdentHzds0"/>
+      <description gid="descExpIdentHzds">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultExprIdentHzds" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="safetyStandard" isAbstract="true" value="safetyStandard" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
+      <description gid="descSafetyStandard">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultSafetyStandard" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingSafatyStandard" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!t_system.all.selectOne(s|s.a_name=&quot;$originValue&quot;).children.select(c|c.name=&quot;standard&quot;).collect(s|s.a_name)"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="assurance" value="assurance">
+      <name lang="English" content="assurance"/>
+      <description gid="Descassurance">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="case" value="case">
+      <name lang="English" content="case"/>
+      <description gid="Desccase">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="package" value="package">
+      <name lang="English" content="package"/>
+      <description gid="Descpackage">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="assurancecasepackage" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.19 //@terminologyPackage.0/@terminologyElement.20 //@terminologyPackage.0/@terminologyElement.21">
+      <name lang="English" content="assurancecasepackage"/>
+      <description gid="Descassurancecasepackage">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expSystemACP0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.22">
+      <name lang="English" content="0"/>
+      <description gid="descExpSystemACP">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultExpSystemACP" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Risk" value="Risk">
+      <name lang="English" content="Risk"/>
+      <description gid="DescRisk">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="posed" value="posed">
+      <name lang="English" content="posed"/>
+      <description gid="Descposed">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="by" value="by">
+      <name lang="English" content="by"/>
+      <description gid="Descby">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Riskposedby" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.24 //@terminologyPackage.0/@terminologyElement.25 //@terminologyPackage.0/@terminologyElement.26">
+      <name lang="English" content="Riskposedby"/>
+      <description gid="DescRiskposedby">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazard" isAbstract="true" value="hazard" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
+      <name lang="English" content="hazard"/>
+      <description gid="Deschazard">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultHazard" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingHazard" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!t_system.all.selectOne(s|s.a_name=&quot;$originValue&quot;).children.select(c|c.name=&quot;hazard&quot;).collect(s|s.a_name)"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="acceptable" value="acceptable">
+      <name lang="English" content="acceptable"/>
+      <description gid="Descacceptable">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isacceptable" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.29">
+      <name lang="English" content="isacceptable"/>
+      <description gid="Descisacceptable">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expRiskHazard0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.27 //@terminologyPackage.0/@terminologyElement.28 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="expRiskHazard0"/>
+      <description gid="DescExpRiskHazard">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultiplicityExpRiskHazard" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazardSil" isAbstract="true" value="Sil" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
+      <description gid="DescHazardSil">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultiplicityHAzardSIL" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingHazardSil" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!t_hazard.all.selectOne(h|h.a_name=&quot;$originValue&quot;).a_sil"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="failureCondition" isAbstract="true" value="failureCondition" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
+      <description gid="DescFailureCondition">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultFailureCondition" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingFailureCondition" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!t_hazard.all.selectOne(h|h.a_name=&quot;$originValue&quot;).children.select(c|c.name=&quot;cause&quot;).collect(t|t.text)"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Causal" value="Causal">
+      <name lang="English" content="Causal"/>
+      <description gid="DescCausal">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="analysis" value="analysis">
+      <name lang="English" content="analysis"/>
+      <description gid="Descanalysis">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="for" value="for">
+      <name lang="English" content="for"/>
+      <description gid="Descfor">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Causalanalysisfor" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.34 //@terminologyPackage.0/@terminologyElement.35 //@terminologyPackage.0/@terminologyElement.36">
+      <name lang="English" content="Causalanalysisfor"/>
+      <description gid="DescCausalanalysisfor">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expCausalAnalysis0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.37 //@terminologyPackage.0/@terminologyElement.33">
+      <name lang="English" content="0"/>
+      <description gid="DescExpCausalAnalisys">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultExpCausalAnalisys" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Hazarduos" value="Hazarduos">
+      <name lang="English" content="Hazarduos"/>
+      <description gid="DescHazarduos">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Software" value="Software">
+      <name lang="English" content="Software"/>
+      <description gid="DescSoftware">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Failure" value="Failure">
+      <name lang="English" content="Failure"/>
+      <description gid="DescFailure">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Mode" value="Mode">
+      <name lang="English" content="Mode"/>
+      <description gid="DescMode">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="HazarduosSoftwareFailureMode" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.39 //@terminologyPackage.0/@terminologyElement.40 //@terminologyPackage.0/@terminologyElement.41 //@terminologyPackage.0/@terminologyElement.42">
+      <name lang="English" content="HazarduosSoftwareFailureMode"/>
+      <description gid="DescHazarduosSoftwareFailureMode">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType" isAbstract="true" value="HSFMType" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.28">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultHSFMType" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingHSFMType" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!FaultTree.all.selectOne(s|s.name=&quot;$originValue&quot;).causes.select(c|c.description.contains(&quot;TOP-EVENT&quot;)).collect(s|s.name)"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="ChildrenHSFMType" type="Children">
+        <content>
+          <value lang="Children:EOL" content="ExternalReference!Gate.all.selectOne(s|s.name=&quot;$parentValue&quot;) &lt;> null ? ExternalReference!Gate.all.selectOne(s|s.name=&quot;$parentValue&quot;).causes.select(a|a.causeType.name = 'Gate').collect(c|c.name) : Sequence{}"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="absent" value="absent">
+      <name lang="English" content="absent"/>
+      <description gid="Descabsent">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isabsentin" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.45 //@terminologyPackage.0/@terminologyElement.6">
+      <name lang="English" content="isabsentin"/>
+      <description gid="Descisabsentin">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF" isAbstract="true" value="CSF" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultiplicityCSF" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingCSF" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="Sequence{&quot;$originValue&quot;.replace(&quot;\\.[A-z]*[0-9]*$|[A-z]*-&quot;,&quot;&quot;)}"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.44 //@terminologyPackage.0/@terminologyElement.46 //@terminologyPackage.0/@terminologyElement.63 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.64">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpAbsHsfmType0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hzdComponents" isAbstract="true" value="components" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
+      <description gid="DescTermComponents">
+        <content/>
+      </description>
+      <implementationConstraint gid="MappingHzdComponents" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!t_hazard.all.selectOne(h|h.a_name=&quot;$originValue&quot;).children.select(c|c.name=&quot;component&quot;).collect(t|t.text)"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Know" value="Know">
+      <name lang="English" content="Know"/>
+      <description gid="DescKnow">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="causes" value="causes">
+      <name lang="English" content="causes"/>
+      <description gid="Desccauses">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="of" value="of">
+      <name lang="English" content="of"/>
+      <description gid="Descof">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Knowcausesof" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.50 //@terminologyPackage.0/@terminologyElement.51 //@terminologyPackage.0/@terminologyElement.52">
+      <name lang="English" content="Knowcausesof"/>
+      <description gid="DescKnowcausesof">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="type" isAbstract="true" value="type" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
+      <name lang="English" content="type"/>
+      <description gid="Desctype">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultType" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingType" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!Cause.all.selectOne(s|s.name=&quot;$originValue&quot;).failure.collect(s|s.failureClass)"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazarduos" value="hazarduos">
+      <name lang="English" content="hazarduos"/>
+      <description gid="Deschazarduos">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="software" value="software">
+      <name lang="English" content="software"/>
+      <description gid="Descsoftware">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="failure" value="failure">
+      <name lang="English" content="failure"/>
+      <description gid="Descfailure">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="mode" value="mode">
+      <name lang="English" content="mode"/>
+      <description gid="Descmode">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="hazarduossoftwarefailuremode" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.55 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.57 //@terminologyPackage.0/@terminologyElement.58">
+      <name lang="English" content="hazarduossoftwarefailuremode"/>
+      <description gid="Deschazarduossoftwarefailuremode">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expCauseHSFMType0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.53 //@terminologyPackage.0/@terminologyElement.54 //@terminologyPackage.0/@terminologyElement.59">
+      <name lang="English" content="0"/>
+      <description gid="DescexpCauseHSFMType0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpCauseHSFMType0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Within" value="Within">
+      <name lang="English" content="Within"/>
+      <description gid="DescWithin">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="context" value="context">
+      <name lang="English" content="context"/>
+      <description gid="Desccontext">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="contributory" value="contributory">
+      <name lang="English" content="contributory"/>
+      <description gid="Desccontributory">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="functionality" value="functionality">
+      <name lang="English" content="functionality"/>
+      <description gid="Descfunctionality">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Withinthecontextofcontributorysoftwarefunctionality" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.61 //@terminologyPackage.0/@terminologyElement.7 //@terminologyPackage.0/@terminologyElement.62 //@terminologyPackage.0/@terminologyElement.52 //@terminologyPackage.0/@terminologyElement.63 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.64">
+      <name lang="English" content="Withinthecontextofcontributorysoftwarefunctionality"/>
+      <description gid="DescWithinthecontextofcontributorysoftwarefunctionality">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.65 //@terminologyPackage.0/@terminologyElement.47">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpContextCFS0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Indentified" value="Indentified">
+      <name lang="English" content="Indentified"/>
+      <description gid="DescIndentified">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="mechanisms" value="mechanisms">
+      <name lang="English" content="mechanisms"/>
+      <description gid="Descmechanisms">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="describe" value="describe">
+      <name lang="English" content="describe"/>
+      <description gid="Descdescribe">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="all" value="all">
+      <name lang="English" content="all"/>
+      <description gid="Descall">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="know" value="know">
+      <name lang="English" content="know"/>
+      <description gid="Descknow">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Indentifiedfailuremechanismsdescribeallknowcausesof" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.67 //@terminologyPackage.0/@terminologyElement.57 //@terminologyPackage.0/@terminologyElement.68 //@terminologyPackage.0/@terminologyElement.69 //@terminologyPackage.0/@terminologyElement.70 //@terminologyPackage.0/@terminologyElement.71 //@terminologyPackage.0/@terminologyElement.51 //@terminologyPackage.0/@terminologyElement.52">
+      <name lang="English" content="Indentifiedfailuremechanismsdescribeallknowcausesof"/>
+      <description gid="DescIndentifiedfailuremechanismsdescribeallknowcausesof">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAllCauses0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.72 //@terminologyPackage.0/@terminologyElement.54 //@terminologyPackage.0/@terminologyElement.59">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAllCauses0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpAllCauses0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="which" value="which">
+      <name lang="English" content="which"/>
+      <description gid="Descwhich">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="contributes" value="contributes">
+      <name lang="English" content="contributes"/>
+      <description gid="Desccontributes">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Identifiedsoftwarefunctionalitywhichcontributestohazarduossoftwarefailure" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.15 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.64 //@terminologyPackage.0/@terminologyElement.74 //@terminologyPackage.0/@terminologyElement.75 //@terminologyPackage.0/@terminologyElement.4 //@terminologyPackage.0/@terminologyElement.55 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.57">
+      <name lang="English" content="Identifiedsoftwarefunctionalitywhichcontributestohazarduossoftwarefailure"/>
+      <description gid="DescIdentifiedsoftwarefunctionalitywhichcontributestohazarduossoftwarefailure">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.76 //@terminologyPackage.0/@terminologyElement.44">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpContribSWFunc0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.44 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpAbsTypePrimary0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="scheduled" value="scheduled">
+      <name lang="English" content="scheduled"/>
+      <description gid="Descscheduled">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="and" value="and">
+      <name lang="English" content="and"/>
+      <description gid="Descand">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="allowed" value="allowed">
+      <name lang="English" content="allowed"/>
+      <description gid="Descallowed">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="run" value="run">
+      <name lang="English" content="run"/>
+      <description gid="Descrun">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="once" value="once">
+      <name lang="English" content="once"/>
+      <description gid="Desconce">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isscheduledandallowedtorunonce" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.79 //@terminologyPackage.0/@terminologyElement.80 //@terminologyPackage.0/@terminologyElement.81 //@terminologyPackage.0/@terminologyElement.4 //@terminologyPackage.0/@terminologyElement.82 //@terminologyPackage.0/@terminologyElement.83">
+      <name lang="English" content="isscheduledandallowedtorunonce"/>
+      <description gid="Descisscheduledandallowedtorunonce">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.47 //@terminologyPackage.0/@terminologyElement.84">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpAbsTypeControl0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="other" value="other">
+      <name lang="English" content="other"/>
+      <description gid="Descother">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="lead" value="lead">
+      <name lang="English" content="lead"/>
+      <description gid="Desclead">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Failureofothercomponentswhichleadto" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.41 //@terminologyPackage.0/@terminologyElement.52 //@terminologyPackage.0/@terminologyElement.86 //@terminologyPackage.0/@terminologyElement.98 //@terminologyPackage.0/@terminologyElement.74 //@terminologyPackage.0/@terminologyElement.87 //@terminologyPackage.0/@terminologyElement.4">
+      <name lang="English" content="Failureofothercomponentswhichleadto"/>
+      <description gid="DescFailureofothercomponentswhichleadto">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="are" value="are">
+      <name lang="English" content="are"/>
+      <description gid="Descare">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="hazarduossoftwarefailuremodeareacceptable" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.55 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.57 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.89 //@terminologyPackage.0/@terminologyElement.29">
+      <name lang="English" content="hazarduossoftwarefailuremodeareacceptable"/>
+      <description gid="Deschazarduossoftwarefailuremodeareacceptable">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.88 //@terminologyPackage.0/@terminologyElement.44 //@terminologyPackage.0/@terminologyElement.90">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpAbsTypeSecondary0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="All" value="All">
+      <name lang="English" content="All"/>
+      <description gid="DescAll">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Allcausesofhazarduossoftwarefailuremode" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.51 //@terminologyPackage.0/@terminologyElement.52 //@terminologyPackage.0/@terminologyElement.55 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.57 //@terminologyPackage.0/@terminologyElement.58">
+      <name lang="English" content="Allcausesofhazarduossoftwarefailuremode"/>
+      <description gid="DescAllcausesofhazarduossoftwarefailuremode">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent" isAbstract="true" value="HSFMEvent" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
+      <name lang="English" content="HSFMEvent"/>
+      <description gid="DescHSFMEvent">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultHSFMEvent" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MappingHSFMEvent" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="ExternalReference!Gate.all.selectOne(s|s.name=&quot;$parentValue&quot;) &lt;> null ? ExternalReference!Gate.all.selectOne(s|s.name=&quot;$parentValue&quot;).causes.select(a|a.causeType.name &lt;> 'Gate').collect(c|c.name) : Sequence{}"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="areacceptable" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.89 //@terminologyPackage.0/@terminologyElement.29">
+      <name lang="English" content="areacceptable"/>
+      <description gid="Descareacceptable">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expHSFMAccept0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.93 //@terminologyPackage.0/@terminologyElement.94 //@terminologyPackage.0/@terminologyElement.95">
+      <name lang="English" content="0"/>
+      <description gid="DescexpHSFMAccept0">
+        <content/>
+      </description>
+      <implementationConstraint gid="MultexpHSFMAccept0" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hsfmSil" isAbstract="true" value="Sil" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
+      <description gid="DesCTermHSFMSil">
+        <content/>
+      </description>
+      <implementationConstraint gid="MappingHsfmSil" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL" content="Sequence{ExternalReference!Cause.all.selectOne(s|s.name=&quot;$originValue&quot;).keyValueMaps.selectOne(s|s.key='sil')?.values?.selectOne(v|v.tag=&quot;Safety Requirement&quot;)?.value}"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="MultHSFMSil" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="pComponents" value="components">
+      <description gid="DescpComponents">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="ASIL" value="ASIL">
+      <description/>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="asilExp" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.97">
+      <description/>
+      <implementationConstraint gid="asilExpsMult" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+  </terminologyPackage>
+</sacm2:AssuranceCasePackage>

@@ -1,0 +1,37 @@
+var level = 0;
+//(ODE!Gate.all.selectOne(s|s.name="Or1675") <> null ? ODE!Gate.all.selectOne(s|s.name="Or1675").causes.select(a|a.causeType.name = 'Gate').collect(c|c.name) : Sequence{}).println();
+//var str = "No_Braking_Re.EMB.Out1";
+/*"No_Braking_Re.EMB.Out1".split("\\.").println();
+"No_Braking_Rer.EMB.Out1".replace("\\.[A-z]*[0-9]*$","").println();
+Sequence{"omission-No_Braking_Rer.EMB.Out1".replace("\\.[A-z]*[0-9]*$|[A-z]*-","")}.println();*/
+Sequence{ODE!Cause.all.selectOne(s|s.name="Brake_Unit4.Wheel_Node_Controller.OFailure1").keyValueMaps.selectOne(s|s.key='sil')?.values?.selectOne(v|v.tag="Safety Requirement")?.value}.println();
+ODE!BaseElement.all.size().println();
+for(ft in ODE!FaultTree.all){
+	"------------------------------------ FT ----------------------------".println();
+	ft.println();
+	/*for(topEvent in ft.causes.select(c|c.description.contains('TOP-EVENT'))){
+		topEvent.printCause();
+	}*/
+}
+
+
+operation Any printWithLevel(){
+    level.print();
+	for(i in Sequence{0..level}){
+		' '.print();
+	}
+	self.println();
+}
+
+operation ODE!Gate printCause(){
+	(self +' ----> ' +self.failure).printWithLevel();
+	level ++;
+	for(c in self.causes){
+		c.printCause();
+	}
+	level --;
+}
+
+operation ODE!Cause printCause(){
+	(self +' ----> ' +self.failure).printWithLevel();
+}

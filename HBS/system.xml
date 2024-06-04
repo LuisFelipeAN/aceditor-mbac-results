@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<systems>
+	<system name="HBS" sysDef="Definition of HBS" enviroment="high speed roads">
+		<standard name="ISO 26262">
+		</standard>
+		<subsystem name="MechanicalPedal">
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="EletronicPedal">
+		<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="CommunicationBus1">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="CommunicationBus2">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="AuxiliaryBattery">
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="PowerTrainBattery">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="in" name="In3"/>
+			<Port type="in" name="In4"/>
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="BrakeUnit1">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="in" name="In3"/>
+			<Port type="in" name="In4"/>
+			<Port type="out" name="T1"/>
+			<Port type="out" name="PW1"/>
+		</subsystem>
+		
+		<subsystem name="BrakeUnit2">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="in" name="In3"/>
+			<Port type="in" name="In4"/>
+			<Port type="out" name="T2"/>
+			<Port type="out" name="PW2"/>
+		</subsystem>
+		
+		<subsystem name="BrakeUnit3">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="in" name="In3"/>
+			<Port type="in" name="In4"/>
+			<Port type="out" name="T3"/>
+			<Port type="out" name="PW3"/>
+		</subsystem>
+		
+		<subsystem name="BrakeUnit4">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="in" name="In3"/>
+			<Port type="in" name="In4"/>
+			<Port type="out" name="T4"/>
+			<Port type="out" name="PW4"/>
+		</subsystem>
+		
+		<hazard name="No_Braking_Front" sil="4" within="HazardAnalisys" faulttree="FT_No_Braking_Front">
+			<cause>Omission-Brake_Unit1.Add.Braking AND Omission-Brake_Unit2.Add.Braking</cause>
+			<component>Brake_Unit1</component>
+			<component>Brake_Unit2</component>
+		</hazard>
+		<hazard name="No_Braking_4_Wheels" sil="4" within="HazardAnalisys" faulttree="FT_No_Braking_4_Wheels">
+			<cause>Omission-Brake_Unit1.Add.Braking AND Omission-Brake_Unit2.Add.Braking AND Omission-Brake_Unit3.Add.Braking AND Omission-Brake_Unit4.Add.Braking</cause>
+			<component>Brake_Unit1</component>
+			<component>Brake_Unit2</component>
+			<component>Brake_Unit3</component>
+			<component>Brake_Unit4</component>
+		</hazard>	
+		<hazard name="No_Braking_Rear" sil="3" within="HazardAnalisys"  faulttree="FT_No_Braking_Rear">
+			<cause>Omission-Brake_Unit3.Add.Braking AND Omission-Brake_Unit4.Add.Braking</cause>
+			<component>Brake_Unit3</component>
+			<component>Brake_Unit4</component>
+		</hazard>
+	</system>
+</systems>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:sacm2="http://SACM_ACEditor/sacm/2.1">
+  <notation:Diagram xmi:id="_gHx1oNjUEe2DvO56FzQq5Q" type="Sacm2AssuranceCasePackage" name="default.sacm2_diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_h8SgMNjUEe2DvO56FzQq5Q" type="2009" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_h8UVYNjUEe2DvO56FzQq5Q" type="5063"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_h8SgMdjUEe2DvO56FzQq5Q" diagramLink="_tqMRwNjUEe2DvO56FzQq5Q" hint="Sacm2TerminologyPackage"/>
+      <element xmi:type="sacm2:TerminologyPackage" href="default.sacm2#//@terminologyPackage.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h8SgMtjUEe2DvO56FzQq5Q" x="189" y="88"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_MW3rYNjeEe2ycYw6eVT-Pg" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MW6usNjeEe2ycYw6eVT-Pg" type="5064"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_MW4ScNjeEe2ycYw6eVT-Pg" diagramLink="_4cUMANjeEe2ycYw6eVT-Pg" hint="Sacm2ArgumentPackage"/>
+      <element xmi:type="sacm2:ArgumentPackage" href="default.sacm2#//@argumentPackage.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MW4ScdjeEe2ycYw6eVT-Pg" x="510" y="75"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_ONEYANjeEe2ycYw6eVT-Pg" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ONE_ENjeEe2ycYw6eVT-Pg" type="5064"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_ONEYAdjeEe2ycYw6eVT-Pg" diagramLink="_5XR_cNjeEe2ycYw6eVT-Pg" hint="Sacm2ArgumentPackage"/>
+      <element xmi:type="sacm2:ArgumentPackage" href="default.sacm2#//@argumentPackage.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ONEYAtjeEe2ycYw6eVT-Pg" x="510" y="285"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Pz7BENjeEe2ycYw6eVT-Pg" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Pz7BE9jeEe2ycYw6eVT-Pg" type="5064"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Pz7BEdjeEe2ycYw6eVT-Pg" diagramLink="_6A1SwNjeEe2ycYw6eVT-Pg" hint="Sacm2ArgumentPackage"/>
+      <element xmi:type="sacm2:ArgumentPackage" href="default.sacm2#//@argumentPackage.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pz7BEtjeEe2ycYw6eVT-Pg" x="910" y="105"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_gHx1odjUEe2DvO56FzQq5Q"/>
+    <element xmi:type="sacm2:AssuranceCasePackage" href="default.sacm2#/"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_tqMRwNjUEe2DvO56FzQq5Q" type="Sacm2TerminologyPackage" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_tqMRwdjUEe2DvO56FzQq5Q"/>
+    <element xmi:type="sacm2:TerminologyPackage" href="default.sacm2#//@terminologyPackage.0"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_4cUMANjeEe2ycYw6eVT-Pg" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_4cUMAdjeEe2ycYw6eVT-Pg"/>
+    <element xmi:type="sacm2:ArgumentPackage" href="default.sacm2#//@argumentPackage.0"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_5XR_cNjeEe2ycYw6eVT-Pg" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_vflaMNjhEe2DNYhzrN6FOg" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_vfmoUNjhEe2DNYhzrN6FOg" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="default.sacm2#//@argumentPackage.1/@argumentationElement.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vfmBQNjhEe2DNYhzrN6FOg" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_vfmoUdjhEe2DNYhzrN6FOg" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_vfmoU9jhEe2DNYhzrN6FOg" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="default.sacm2#//@argumentPackage.1/@argumentationElement.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vfmoUtjhEe2DNYhzrN6FOg" x="180" y="68" width="311" height="88"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_vfnPYNjhEe2DNYhzrN6FOg" type="2012" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedInference" href="default.sacm2#//@argumentPackage.1/@argumentationElement.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vfnPYdjhEe2DNYhzrN6FOg" x="146"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5XR_cdjeEe2ycYw6eVT-Pg"/>
+    <element xmi:type="sacm2:ArgumentPackage" href="default.sacm2#//@argumentPackage.1"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_6A1SwNjeEe2ycYw6eVT-Pg" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_6A1SwdjeEe2ycYw6eVT-Pg"/>
+    <element xmi:type="sacm2:ArgumentPackage" href="default.sacm2#//@argumentPackage.2"/>
+  </notation:Diagram>
+</xmi:XMI>

@@ -1,0 +1,270 @@
+//ExternalReference!t_outputdeviation.all.children.select(c|c.isTypeOf(t_name)).collect(p|p.text).println();
+//ExternalReference!t_outputdeviation.all.first().closure(o|o.children).println();
+var count_instantiated_elements = 0l;
+/*for( e in ExternalReference!t_faulttrees.all().first().getAllElementsInside()){
+	e.println();
+}*/
+
+var ddiPackage = ODE!DDIPackage.all.first();
+ddiPackage.name = ddiPackageName;
+var failureLogicPackage = instantiate("FailureLogicPackage");
+failureLogicPackage.name = failureLogicPackageName;
+ddiPackage.odeProductPackages.add(failureLogicPackage);
+var faultTree = null;
+var outputDeviations = ExternalReference!t_outputdeviation.all.getAll(t_name).text();
+"OutputDeviations:".println();
+outputDeviations.println();
+var level = 0;
+for( ft in ExternalReference!t_faulttrees.all.first().getAll(t_faulttree)){
+	ft.show(Sequence{t_name,t_sil});
+	var outputDeviation = ft.getOne(t_outputdeviation);
+	('OtputDeviation: ' +outputDeviation.getOne(t_name).text()+' '+outputDeviation.gid()).println();
+	
+	faultTree = instantiate("FaultTree");
+	failureLogicPackage.failureModels.add(faultTree);
+	faultTree.name =  outputDeviation.getOne(t_name).text();
+	
+	var firstGate =  outputDeviation.getOne(t_children).getOne(t_or);
+	('firstGate: ' +firstGate.getOne(t_name).text()+' '+firstGate.gid()).println();
+	var cause = firstGate.getOne(t_children).getOne(t_and).cause();
+	cause.name = faultTree.name;
+	cause.description = cause.description + ' (TOP-EVENT)';
+	/*for(c in firstGate.getOne(t_children).getOne(t_and).getOne(t_children).children){
+		//('firstGate: ' +c.getOne(t_name).text()+' '+c.gid()).println();
+
+		var cause = c.cause();
+		cause.name = cause.name + ' (TOP-EVENT)';
+	*/
+	//faultTree.eContents.println();
+	"".println();
+}
+
+for(cause in ODE!Cause.all){
+	cause.setFailure();
+}
+
+operation Any getAllElementsInside(){
+	var elements = Collection{};
+	elements.add(self);
+	for(c in self.eContents){
+		elements.addAll(c.getAllElementsInside());
+	}
+	return elements;
+}
+operation Any allChildren(){
+	var children = Collection{};
+	for(c in self.children){
+		children.add(c);
+		children.addAll(c.allChildren());
+	}
+	return children;
+}
+
+operation Any getOne(tag){
+	return self.collect(o|o.children)
+	.closure(s|s)
+	.selectOne(c|c.isTypeOf(tag));
+}
+
+operation instantiate(class_name){
+	var instance = ODE.createInstance(class_name);
+	instance.Id = count_instantiated_elements++;
+	return instance;
+}
+
+operation Any text(){
+	if(self == null){
+		return null;
+	}else if(self.instanceOf(Sequence)){
+		return self.collect(p|p.text);
+	}else{
+		return self.collect(p|p.text)
+		   .first();
+	}
+}
+
+operation Any getAll(tag){
+	return self.collect(o|o.children)
+	.closure(s|s)
+	.select(c|c.isTypeOf(tag));
+}
+
+operation Any show(tags){
+	for(tag in tags){
+		(tag.name + ": "+self.getOne(tag).text()).println();
+	}
+}
+operation Any printWithLevel(){
+    level.print();
+	for(i in Sequence{0..level}){
+		' '.print();
+	}
+	self.println();
+}
+operation Any gid(){
+	if(not self.hasAttribute('ID')){
+		return null;
+	}else{
+		return self.name+self.a_ID;
+	}
+}
+
+operation Any element(){
+	if(self.isTypeOf(t_event)){
+		return  ExternalReference!t_basicevent.all.selectOne(e|e.a_ID=self.a_ID);
+	}else if(self.isTypeOf(t_transfer)){
+		var OR = ExternalReference!t_or.all.selectOne(e|e.a_ID=self.a_ID);
+		var AND = ExternalReference!t_and.all.selectOne(e|e.a_ID=self.a_ID);
+		return  OR <> null ? OR : AND;
+	}else{
+		return self;
+	}
+}
+
+
+operation ODE!Cause setCauseType(){
+	if(self.isTypeOf(ODE!Gate)){
+		self.causeType = ODE!CauseType#Gate;
+	}else if(self.isTypeOf(ODE!Cause)){
+		if(self.name.contains('OFailure')){
+			self.causeType = ODE!CauseType#OutputEvent;
+		}else{
+			self.causeType = ODE!CauseType#BasicEvent;
+		}
+	}
+}
+
+operation ODE!Cause getFailureOriginType(){
+	if(self.name.contains('Out')){
+		return ODE!FailureOriginType#Output;
+	}else if(self.name.contains('In')){
+		return ODE!FailureOriginType#Input;
+	}else{
+		return ODE!FailureOriginType#Internal;
+	}
+}
+
+operation ODE!Cause getFailureFailureClass(){
+	if(self.name.contains('Omission')){
+		return 'Omission';
+	}else if(self.name.contains('Value')){
+		return 'Value';
+	}else{
+		return null;
+	}
+}
+operation ODE!Cause getFailureIsCcf(){
+	if(self.isTypeOf(ODE!Gate)){
+		return  ODE!Cause.all.select(c|c.name=self.name).size() > 1;
+	}else{
+		return	ODE!Gate.all.select(c|c.causes.contains(self)).size() > 1;
+	}
+}
+
+operation ODE!Cause setFailure(){
+	var failure = instantiate('Failure');
+	failure.name = self.name;
+	failure.originType = self.getFailureOriginType();
+	failure.failureClass = self.getFailureFailureClass();
+	failure.isCcf = self.getFailureIsCcf();
+	self.eContainer.failures.add(failure);
+	self.failure = failure;
+}
+
+operation ODE!Cause setSil(sil){
+	var keyValueMapping = ODE.createInstance("KeyValueMap"); 
+	keyValueMapping.key = 'sil';
+	var value = ODE.createInstance("Value"); 
+	value.tag='Safety Requirement';
+	value.value = sil.formatSil();
+	keyValueMapping.values.add(value);
+	self.keyValueMaps.add(keyValueMapping);	
+}
+
+operation ODE!Cause getSil(){
+	return self.keyValueMaps.selectOne(k|k.key = 'sil')?.values?.selectOne(v|v.tag= 'Safety Requirement')?.value;
+}
+
+operation Any silToInt(){
+	if(self == "A"){
+		return 1;
+	}else if(self == "B"){
+		return 2;
+	}else if(self == "C"){
+		return 3;
+	}else if(self == "D"){
+		return 4;
+	}
+	return 0;
+}
+
+operation Any formatSil(){
+	if(self == "1"){
+		return "A";
+	}else if(self == "2"){
+		return "B";
+	}else if(self == "3"){
+		return "C";
+	}else if(self == "4"){
+		return "D";
+	}
+	return "QM";
+}
+
+operation Any cause(){
+	var element = self.element();
+	(element.getOne(t_name).text()+' '+element.gid()).printWithLevel();
+	
+	var children = self.getOne(t_children);
+	if(children <> null and children.children.size() > 0){
+		var gate = ODE!Cause.all.selectOne(c|c.description = element.gid());//faultTree.getAllElementsInside().selectOne(c|c.description = element.gid());
+		if(gate <> null){
+			return gate;
+		}else{
+			gate =  instantiate("Gate"); 
+			if(self.isTypeOf(t_or)){
+				gate.gateType = ODE!GateType#OR;
+			}else if(self.isTypeOf(t_and)){
+				gate.gateType = ODE!GateType#AND;
+			}
+			gate.description = element.gid();
+			var name = element.getOne(t_name).text();
+			if(name.contains('[')){
+				name = name.substring(name.indexOf('[') + 1, name.indexOf(']'));
+			}
+			gate.name = name;
+			gate.setCauseType();
+			faultTree.causes.add(gate);
+			level ++;
+			var maxSil = 0;
+			for(c in children.children){
+				var cause = c.cause();
+				gate.causes.add(cause);
+				var cSil = cause.getSil().silToInt();
+				if(cSil > maxSil){
+					maxSil = cSil;
+				}
+			}
+			gate.setSil(maxSil+"");
+			level --;
+			return gate;
+		}
+	}else{
+		var cause = ODE!Cause.all.selectOne(c|c.description = element.gid());//faultTree.getAllElementsInside().selectOne(c|c.description = element.gid());
+		if(cause<> null){
+			return cause;
+		}else{
+			cause =  instantiate("Cause"); 
+			cause.name = element.getOne(t_name).text();
+			cause.description = element.gid();
+			var basicEvent = ExternalReference!t_basicevent.all.selectOne(b|b.getOne(t_id)?.text() = element.a_ID);
+			if(basicEvent <> null){
+				cause.setSil(basicEvent.allChildren().selectOne(t|t.isTypeOf(t_safetyrequirement)).text());
+			}
+			cause.setCauseType();
+			faultTree.causes.add(cause);
+			return cause;
+		}
+		
+	}
+}

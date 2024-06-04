@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:sacm2="http://SACM_ACEditor/sacm/2.1">
+  <notation:Diagram xmi:id="_P-w68I9OEeyRerIXR06HIA" type="Sacm2AssuranceCasePackage" name="case_study.sacm2_diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_ZAHKMI9PEeyRerIXR06HIA" type="2009" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZAHKM49PEeyRerIXR06HIA" type="5063"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_ZAHKMY9PEeyRerIXR06HIA" diagramLink="_TBYUYI9vEeysjcpBPOISGg" hint="Sacm2TerminologyPackage"/>
+      <element xmi:type="sacm2:TerminologyPackage" href="case_study.sacm2#//@terminologyPackage.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZAHKMo9PEeyRerIXR06HIA" x="140" y="325"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5d4DwI9UEeyRerIXR06HIA" type="2011" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5d4DxI9UEeyRerIXR06HIA" type="5065"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_5d4DwY9UEeyRerIXR06HIA" diagramLink="_SR-0kI9rEeysjcpBPOISGg" hint="Sacm2AssuranceCasePackage"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_5d4Dwo9UEeyRerIXR06HIA" hint="Sacm2AssuranceCasePackage"/>
+      <element xmi:type="sacm2:AssuranceCasePackage" href="case_study.sacm2#//@assuranceCasePackage.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5d4Dw49UEeyRerIXR06HIA" x="165" y="77"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_P-w68Y9OEeyRerIXR06HIA"/>
+    <element xmi:type="sacm2:AssuranceCasePackage" href="case_study.sacm2#/"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_SR-0kI9rEeysjcpBPOISGg" type="Sacm2AssuranceCasePackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_Vj0_0I9rEeysjcpBPOISGg" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Vj0_049rEeysjcpBPOISGg" type="5064"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Vj0_0Y9rEeysjcpBPOISGg" diagramLink="_8jnOMI9rEeysjcpBPOISGg" hint="Sacm2ArgumentPackage"/>
+      <element xmi:type="sacm2:ArgumentPackage" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vj0_0o9rEeysjcpBPOISGg" x="30" y="15"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__B-msI9uEeysjcpBPOISGg" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="__B-ms49uEeysjcpBPOISGg" type="5064"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="__B-msY9uEeysjcpBPOISGg" diagramLink="_82NdQI9vEeysjcpBPOISGg" hint="Sacm2ArgumentPackage"/>
+      <element xmi:type="sacm2:ArgumentPackage" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B-mso9uEeysjcpBPOISGg" x="275" y="15"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_XWqJwI_3EeyKGokipbNHzw" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_XWqJw4_3EeyKGokipbNHzw" type="5064"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_XWqJwY_3EeyKGokipbNHzw" diagramLink="_hYYtYI_3EeyKGokipbNHzw" hint="Sacm2ArgumentPackage"/>
+      <element xmi:type="sacm2:ArgumentPackage" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XWqJwo_3EeyKGokipbNHzw" x="540" y="15"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_SR-0kY9rEeysjcpBPOISGg"/>
+    <element xmi:type="sacm2:AssuranceCasePackage" href="case_study.sacm2#//@assuranceCasePackage.0"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_8jnOMI9rEeysjcpBPOISGg" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_Foeg8I9sEeysjcpBPOISGg" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_FofIAY9sEeysjcpBPOISGg" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FofIAI9sEeysjcpBPOISGg" x="340" y="55"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_GtVQMI9sEeysjcpBPOISGg" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_GtVQMo9sEeysjcpBPOISGg" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GtVQMY9sEeysjcpBPOISGg" x="140" y="60" width="139"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_IOPCQI9sEeysjcpBPOISGg" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IOPCQo9sEeysjcpBPOISGg" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOPCQY9sEeysjcpBPOISGg" x="665" y="50" width="161"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ld0jsI9sEeysjcpBPOISGg" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ld0jso9sEeysjcpBPOISGg" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.3"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ld0jsY9sEeysjcpBPOISGg" x="685" y="145"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_RDH_UI9sEeysjcpBPOISGg" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_RDH_Uo9sEeysjcpBPOISGg" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.4"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RDH_UY9sEeysjcpBPOISGg" x="280" y="235" width="271"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_i_9_YI9sEeysjcpBPOISGg" type="2012" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedInference" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.5"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_9_YY9sEeysjcpBPOISGg" x="390" y="180"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_jakQsI9sEeysjcpBPOISGg" type="2005" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jakQso9sEeysjcpBPOISGg" type="5005"/>
+      <element xmi:type="sacm2:ArgumentReasoning" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.6"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jakQsY9sEeysjcpBPOISGg" x="420" y="145" width="218"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_phRJMI9sEeysjcpBPOISGg" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.7"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_phRJMY9sEeysjcpBPOISGg" x="525" y="85"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_rDE6MI9sEeysjcpBPOISGg" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.8"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rDE6MY9sEeysjcpBPOISGg" x="580" y="270"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_1zUwsI9sEeysjcpBPOISGg" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.9"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1zUwsY9sEeysjcpBPOISGg" x="295" y="95"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oOQycKRjEey36pUeyVlX9g" type="2004" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oOQycqRjEey36pUeyVlX9g" type="5004"/>
+      <element xmi:type="sacm2:ArtifactReference" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.10"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOQycaRjEey36pUeyVlX9g" x="655" y="240"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_8jn1QI9rEeysjcpBPOISGg"/>
+    <element xmi:type="sacm2:ArgumentPackage" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.0"/>
+    <edges xmi:type="notation:Connector" xmi:id="_u5kqoI9sEeysjcpBPOISGg" type="4017" source="_phRJMI9sEeysjcpBPOISGg" target="_IOPCQI9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_u5kqo49sEeysjcpBPOISGg" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_u5kqpI9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u5kqpY9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_u5kqoY9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u5kqoo9sEeysjcpBPOISGg" points="[0, 0, -124, -10]$[102, 14, -22, 4]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u6ScUI9sEeysjcpBPOISGg" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u6ScUY9sEeysjcpBPOISGg" id="(0.006211180124223602,0.475)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_v5Ow0I9sEeysjcpBPOISGg" type="4017" source="_rDE6MI9sEeysjcpBPOISGg" target="_oOQycKRjEey36pUeyVlX9g" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_v5Ow049sEeysjcpBPOISGg" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_v5Ow1I9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_v5Ow1Y9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_v5Ow0Y9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5Ow0o9sEeysjcpBPOISGg" points="[0, 0, -79, -12]$[67, 10, -12, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5Ow1o9sEeysjcpBPOISGg" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v5Ow149sEeysjcpBPOISGg" id="(0.0,0.45)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_wY1d8I9sEeysjcpBPOISGg" type="4018" source="_rDE6MI9sEeysjcpBPOISGg" target="_jakQsI9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_wY2FAI9sEeysjcpBPOISGg" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_wY2FAY9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wY2FAo9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_wY1d8Y9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wY1d8o9sEeysjcpBPOISGg" points="[0, 0, 117, 19]$[-82, -14, 35, 5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_waYWEI9sEeysjcpBPOISGg" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_waYWEY9sEeysjcpBPOISGg" id="(0.7385321100917431,0.8625)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_y8oQYI9sEeysjcpBPOISGg" type="4017" source="_phRJMI9sEeysjcpBPOISGg" target="_Ld0jsI9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_y8oQY49sEeysjcpBPOISGg" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_y8oQZI9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_y8oQZY9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_y8oQYY9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y8oQYo9sEeysjcpBPOISGg" points="[0, 0, -247, -90]$[240, 89, -7, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y8pegI9sEeysjcpBPOISGg" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y8pegY9sEeysjcpBPOISGg" id="(0.058333333333333334,0.475)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_0asw4I9sEeysjcpBPOISGg" type="4018" source="_phRJMI9sEeysjcpBPOISGg" target="_Foeg8I9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0asw449sEeysjcpBPOISGg" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_0asw5I9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0asw5Y9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0asw4Y9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0asw4o9sEeysjcpBPOISGg" points="[0, -4, 95, 14]$[-89, 22, 6, 40]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0at_AI9sEeysjcpBPOISGg" id="(0.0,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_2Q9H4I9sEeysjcpBPOISGg" type="4017" source="_1zUwsI9sEeysjcpBPOISGg" target="_GtVQMI9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2Q9H449sEeysjcpBPOISGg" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_2Q9H5I9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2Q9H5Y9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2Q9H4Y9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Q9H4o9sEeysjcpBPOISGg" points="[0, 0, 86, 8]$[-16, -2, 70, 6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Q9u8I9sEeysjcpBPOISGg" id="(0.0,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_3Hz3YI9sEeysjcpBPOISGg" type="4018" source="_1zUwsI9sEeysjcpBPOISGg" target="_Foeg8I9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3Hz3Y49sEeysjcpBPOISGg" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_3Hz3ZI9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3Hz3ZY9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3Hz3YY9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3Hz3Yo9sEeysjcpBPOISGg" points="[0, 0, -77, -10]$[70, 11, -7, 1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3H0ecI9sEeysjcpBPOISGg" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3H0ecY9sEeysjcpBPOISGg" id="(0.025,0.5375)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5QHnsI9sEeysjcpBPOISGg" type="4017" source="_i_9_YI9sEeysjcpBPOISGg" target="_RDH_UI9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5QHns49sEeysjcpBPOISGg" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_5QHntI9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5QHntY9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5QHnsY9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5QHnso9sEeysjcpBPOISGg" points="[-6, 0, 0, -57]$[-6, 47, 0, -10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5QRYsI9sEeysjcpBPOISGg" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5QRYsY9sEeysjcpBPOISGg" id="(0.4132841328413284,0.125)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_5yDQEI9sEeysjcpBPOISGg" type="4018" source="_i_9_YI9sEeysjcpBPOISGg" target="_Foeg8I9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5yDQE49sEeysjcpBPOISGg" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_5yDQFI9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5yDQFY9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5yDQEY9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5yDQEo9sEeysjcpBPOISGg" points="[0, 0, -78, 188]$[76, -183, -2, 5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5yDQFo9sEeysjcpBPOISGg" id="(0.125,0.25)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5yDQF49sEeysjcpBPOISGg" id="(0.425,0.9375)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6W5CgI9sEeysjcpBPOISGg" type="4012" source="_i_9_YI9sEeysjcpBPOISGg" target="_jakQsI9sEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6W5Cg49sEeysjcpBPOISGg" type="6002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6W5ChI9sEeysjcpBPOISGg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6W5ChY9sEeysjcpBPOISGg" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6W5CgY9sEeysjcpBPOISGg" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6W5Cgo9sEeysjcpBPOISGg" points="[0, -8, -148, 0]$[97, -13, -51, -5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6XVHYI9sEeysjcpBPOISGg" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6XVHYY9sEeysjcpBPOISGg" id="(0.23394495412844038,0.4375)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_TBYUYI9vEeysjcpBPOISGg" type="Sacm2TerminologyPackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_HruAcJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAcpAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAcZAvEeyDt5MPbNwSEQ" x="10169" y="420"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAc5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAdZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAdJAvEeyDt5MPbNwSEQ"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAdpAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAeJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAd5AvEeyDt5MPbNwSEQ" x="180"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAeZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAe5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.3"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAepAvEeyDt5MPbNwSEQ" x="360"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAfJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAfpAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.4"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAfZAvEeyDt5MPbNwSEQ" x="540"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAf5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAgZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.5"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAgJAvEeyDt5MPbNwSEQ" x="720"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAgpAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAhJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.6"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAg5AvEeyDt5MPbNwSEQ" x="900"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAhZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAh5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.7"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAhpAvEeyDt5MPbNwSEQ" x="1080"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAiJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAipAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.8"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAiZAvEeyDt5MPbNwSEQ" x="1260"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAi5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAjZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.9"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAjJAvEeyDt5MPbNwSEQ" x="1440"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAjpAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAkJAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.10"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAj5AvEeyDt5MPbNwSEQ" x="1620"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAkZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAk5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.11"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAkpAvEeyDt5MPbNwSEQ" x="1800"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAlJAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAlpAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.12"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAlZAvEeyDt5MPbNwSEQ" x="1980"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAl5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAmZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.13"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAmJAvEeyDt5MPbNwSEQ" x="9899" y="280"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAmpAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAnJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.14"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAm5AvEeyDt5MPbNwSEQ" x="10079" y="280"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAnZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAn5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.15"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAnpAvEeyDt5MPbNwSEQ" x="2160"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAoJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAopAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.16"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAoZAvEeyDt5MPbNwSEQ" x="2340"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAo5AvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruApZAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.17"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruApJAvEeyDt5MPbNwSEQ" x="2520"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAppAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAqJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.18"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAp5AvEeyDt5MPbNwSEQ" x="10439" y="280"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAqZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAq5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.19"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAqpAvEeyDt5MPbNwSEQ" x="2700"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruArJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruArpAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruArZAvEeyDt5MPbNwSEQ" x="2880"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAr5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAsZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.21"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAsJAvEeyDt5MPbNwSEQ" x="3060"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAspAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAtJAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.22"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAs5AvEeyDt5MPbNwSEQ" x="3240"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAtZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAt5AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.23"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAtpAvEeyDt5MPbNwSEQ" x="3420"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAuJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAupAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.24"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAuZAvEeyDt5MPbNwSEQ" x="3600"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAu5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAvZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.25"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAvJAvEeyDt5MPbNwSEQ" x="3780"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAvpAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAwJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.26"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAv5AvEeyDt5MPbNwSEQ" x="3960"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAwZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAw5AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.27"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAwpAvEeyDt5MPbNwSEQ" x="4140"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAxJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAxpAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.28"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAxZAvEeyDt5MPbNwSEQ" x="10259" y="280"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAx5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAyZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.29"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAyJAvEeyDt5MPbNwSEQ" x="4320"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAypAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAzJAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.30"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAy5AvEeyDt5MPbNwSEQ" x="4500"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruAzZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruAz5AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.31"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruAzpAvEeyDt5MPbNwSEQ" x="4680"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA0JAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruA0pAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.32"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA0ZAvEeyDt5MPbNwSEQ" x="9990" y="140"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA05AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruA1ZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.33"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA1JAvEeyDt5MPbNwSEQ" x="10170" y="140"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA1pAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruA2JAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.34"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA15AvEeyDt5MPbNwSEQ" x="4860"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA2ZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruA25AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.35"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA2pAvEeyDt5MPbNwSEQ" x="5040"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA3JAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruA3pAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.36"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA3ZAvEeyDt5MPbNwSEQ" x="5220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA35AvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruA4ZAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.37"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA4JAvEeyDt5MPbNwSEQ" x="5400"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA4pAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruA5JAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.38"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA45AvEeyDt5MPbNwSEQ" x="5580"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA5ZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HruA55AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.39"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA5pAvEeyDt5MPbNwSEQ" x="5760"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_HruA6JAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KYJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.40"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HruA6ZAvEeyDt5MPbNwSEQ" x="5940"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KYZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KY5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.41"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KYpAvEeyDt5MPbNwSEQ" x="6120"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KZJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KZpAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.42"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KZZAvEeyDt5MPbNwSEQ" x="6300"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KZ5AvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KaZAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.43"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KaJAvEeyDt5MPbNwSEQ" x="6480"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KapAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KbJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.44"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Ka5AvEeyDt5MPbNwSEQ" x="10530" y="140"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KbZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Kb5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.45"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KbpAvEeyDt5MPbNwSEQ" x="6660"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KcJAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KcpAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.46"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KcZAvEeyDt5MPbNwSEQ" x="6840"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3Kc5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KdZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.47"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KdJAvEeyDt5MPbNwSEQ" x="10260"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KdpAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KeJAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.48"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Kd5AvEeyDt5MPbNwSEQ" x="7020"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KeZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Ke5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.49"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KepAvEeyDt5MPbNwSEQ" x="10350" y="140"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KfJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KfpAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.50"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KfZAvEeyDt5MPbNwSEQ" x="7200"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3Kf5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KgZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.51"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KgJAvEeyDt5MPbNwSEQ" x="7380"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KgpAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KhJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.52"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Kg5AvEeyDt5MPbNwSEQ" x="7560"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KhZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Kh5AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.53"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KhpAvEeyDt5MPbNwSEQ" x="7740"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KiJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KipAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.54"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KiZAvEeyDt5MPbNwSEQ" x="10440"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3Ki5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KjZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.55"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KjJAvEeyDt5MPbNwSEQ" x="7920"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KjpAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KkJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.56"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Kj5AvEeyDt5MPbNwSEQ" x="8100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KkZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Kk5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.57"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KkpAvEeyDt5MPbNwSEQ" x="8280"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KlJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KlpAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.58"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KlZAvEeyDt5MPbNwSEQ" x="8460"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3Kl5AvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KmZAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.59"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KmJAvEeyDt5MPbNwSEQ" x="8640"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KmpAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KnJAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.60"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Km5AvEeyDt5MPbNwSEQ" x="8820"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KnZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Kn5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.61"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KnpAvEeyDt5MPbNwSEQ" x="9000"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KoJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KopAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.62"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KoZAvEeyDt5MPbNwSEQ" x="9180"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3Ko5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KpZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.63"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KpJAvEeyDt5MPbNwSEQ" x="9360"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KppAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KqJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.64"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Kp5AvEeyDt5MPbNwSEQ" x="9540"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KqZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Kq5AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.65"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KqpAvEeyDt5MPbNwSEQ" x="9720"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KrJAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KrpAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.66"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KrZAvEeyDt5MPbNwSEQ" x="9900"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3Kr5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KsZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.67"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KsJAvEeyDt5MPbNwSEQ" x="10080"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KspAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KtJAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.68"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Ks5AvEeyDt5MPbNwSEQ" x="10997"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KtZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Kt5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.69"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KtpAvEeyDt5MPbNwSEQ" x="11193"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KuJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KupAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.70"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KuZAvEeyDt5MPbNwSEQ" x="11388"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3Ku5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KvZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.71"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KvJAvEeyDt5MPbNwSEQ" x="11582"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KvpAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KwJAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.72"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Kv5AvEeyDt5MPbNwSEQ" x="11775"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KwZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Kw5AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.73"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KwpAvEeyDt5MPbNwSEQ" x="11967"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KxJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KxpAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.74"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KxZAvEeyDt5MPbNwSEQ" x="12158"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3Kx5AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KyZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.75"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KyJAvEeyDt5MPbNwSEQ" x="12348"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KypAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3KzJAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.76"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3Ky5AvEeyDt5MPbNwSEQ" x="12538"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3KzZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3Kz5AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.77"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3KzpAvEeyDt5MPbNwSEQ" x="12727"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K0JAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K0pAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.78"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K0ZAvEeyDt5MPbNwSEQ" x="12915"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K05AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K1ZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.79"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K1JAvEeyDt5MPbNwSEQ" x="13102"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K1pAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K2JAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.80"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K15AvEeyDt5MPbNwSEQ" x="13288"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K2ZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K25AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.81"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K2pAvEeyDt5MPbNwSEQ" x="13473"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K3JAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K3pAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.82"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K3ZAvEeyDt5MPbNwSEQ" x="13657"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K35AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K4ZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.83"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K4JAvEeyDt5MPbNwSEQ" x="13840"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K4pAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K5JAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.84"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K45AvEeyDt5MPbNwSEQ" x="14022"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K5ZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K55AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.85"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K5pAvEeyDt5MPbNwSEQ" x="14203"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K6JAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K6pAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.86"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K6ZAvEeyDt5MPbNwSEQ" x="14383"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K65AvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K7ZAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.87"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K7JAvEeyDt5MPbNwSEQ" x="14563"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K7pAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K8JAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.88"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K75AvEeyDt5MPbNwSEQ" x="14743"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K8ZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K85AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.89"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K8pAvEeyDt5MPbNwSEQ" x="14923"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K9JAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K9pAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.90"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K9ZAvEeyDt5MPbNwSEQ" x="15103"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K95AvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K-ZAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.91"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K-JAvEeyDt5MPbNwSEQ" x="15283"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K-pAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K_JAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.92"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K-5AvEeyDt5MPbNwSEQ" x="15463"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3K_ZAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3K_5AvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.93"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3K_pAvEeyDt5MPbNwSEQ" x="15643"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3LAJAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3LApAvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.94"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3LAZAvEeyDt5MPbNwSEQ" x="10620"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3LA5AvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3LBZAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.95"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3LBJAvEeyDt5MPbNwSEQ" x="15823"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3LBpAvEeyDt5MPbNwSEQ" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3LCJAvEeyDt5MPbNwSEQ" type="5001"/>
+      <element xmi:type="sacm2:Expression" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.96"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3LB5AvEeyDt5MPbNwSEQ" x="16003"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Hr3LCZAvEeyDt5MPbNwSEQ" type="2002" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hr3LC5AvEeyDt5MPbNwSEQ" type="5002"/>
+      <element xmi:type="sacm2:Term" href="case_study.sacm2#//@terminologyPackage.0/@terminologyElement.97"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hr3LCpAvEeyDt5MPbNwSEQ" x="10800"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_TBYUYY9vEeysjcpBPOISGg"/>
+    <element xmi:type="sacm2:TerminologyPackage" href="case_study.sacm2#//@terminologyPackage.0"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_82NdQI9vEeysjcpBPOISGg" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_EZwHMI9wEeysjcpBPOISGg" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_EZwHMo9wEeysjcpBPOISGg" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZwHMY9wEeysjcpBPOISGg" x="225" y="20"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_pxG2YI_4EeyKGokipbNHzw" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_pxG2Yo_4EeyKGokipbNHzw" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pxG2YY_4EeyKGokipbNHzw" x="665" y="20" width="125"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_sYmdEI_4EeyKGokipbNHzw" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sYmdEo_4EeyKGokipbNHzw" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sYmdEY_4EeyKGokipbNHzw" x="665" y="110" width="125"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_sjjI0I_4EeyKGokipbNHzw" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sjjI0o_4EeyKGokipbNHzw" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.3"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sjjI0Y_4EeyKGokipbNHzw" x="665" y="205" width="125"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_s4rEQI_4EeyKGokipbNHzw" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_s4rrUI_4EeyKGokipbNHzw" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.4"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4rEQY_4EeyKGokipbNHzw" x="665" y="310" width="125"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_uQrZAI_4EeyKGokipbNHzw" type="2005" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uQrZAo_4EeyKGokipbNHzw" type="5005"/>
+      <element xmi:type="sacm2:ArgumentReasoning" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.5"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uQrZAY_4EeyKGokipbNHzw" x="290" y="190" width="225"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_u3p5cI_4EeyKGokipbNHzw" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_u3p5co_4EeyKGokipbNHzw" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.6"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u3p5cY_4EeyKGokipbNHzw" x="190" y="310" width="281"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_xiOCQI_4EeyKGokipbNHzw" type="2012" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedInference" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.7"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xiOCQY_4EeyKGokipbNHzw" x="260" y="225"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_11aVwI_4EeyKGokipbNHzw" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.8"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_11aVwY_4EeyKGokipbNHzw" x="565" y="225" width="8" height="8"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9K_cMI_4EeyKGokipbNHzw" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.9"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9K_cMY_4EeyKGokipbNHzw" x="410" y="55"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_82NdQY9vEeysjcpBPOISGg"/>
+    <element xmi:type="sacm2:ArgumentPackage" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.1"/>
+    <edges xmi:type="notation:Connector" xmi:id="_ywa6wI_4EeyKGokipbNHzw" type="4012" source="_xiOCQI_4EeyKGokipbNHzw" target="_uQrZAI_4EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ywa6w4_4EeyKGokipbNHzw" type="6002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ywa6xI_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ywa6xY_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ywa6wY_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ywa6wo_4EeyKGokipbNHzw" points="[0, 0, -134, 3]$[22, -4, -112, -1]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yxKhoY_4EeyKGokipbNHzw" id="(0.12444444444444444,0.45)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_zMl5YI_4EeyKGokipbNHzw" type="4018" source="_xiOCQI_4EeyKGokipbNHzw" target="_EZwHMI9wEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zMl5Y4_4EeyKGokipbNHzw" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zMl5ZI_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zMl5ZY_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_zMl5YY_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zMl5Yo_4EeyKGokipbNHzw" points="[0, 0, -185, 182]$[178, -173, -7, 9]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zOO4II_4EeyKGokipbNHzw" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zOO4IY_4EeyKGokipbNHzw" id="(0.31666666666666665,0.8875)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_1AlmkI_4EeyKGokipbNHzw" type="4017" source="_xiOCQI_4EeyKGokipbNHzw" target="_u3p5cI_4EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1Almk4_4EeyKGokipbNHzw" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_1AlmlI_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1AlmlY_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_1AlmkY_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1Almko_4EeyKGokipbNHzw" points="[0, 0, 15, -125]$[-28, 114, -13, -11]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1BlFEI_4EeyKGokipbNHzw" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1BlFEY_4EeyKGokipbNHzw" id="(0.25622775800711745,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_2iUfEI_4EeyKGokipbNHzw" type="4017" source="_11aVwI_4EeyKGokipbNHzw" target="_s4rEQI_4EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2iUfE4_4EeyKGokipbNHzw" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_2iUfFI_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2iUfFY_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2iUfEY_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2iUfEo_4EeyKGokipbNHzw" points="[0, 0, -119, -115]$[112, 107, -7, -8]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2iVGII_4EeyKGokipbNHzw" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2iVGIY_4EeyKGokipbNHzw" id="(0.007462686567164179,0.025)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_3HFZAI_4EeyKGokipbNHzw" type="4017" source="_11aVwI_4EeyKGokipbNHzw" target="_sjjI0I_4EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3HFZA4_4EeyKGokipbNHzw" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_3HFZBI_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3HFZBY_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3HFZAY_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3HFZAo_4EeyKGokipbNHzw" points="[8, -7, -136, 102]$[139, -111, -5, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3HGAEI_4EeyKGokipbNHzw" id="(0.875,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3HGAEY_4EeyKGokipbNHzw" id="(0.041666666666666664,0.3125)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_313KkI_4EeyKGokipbNHzw" type="4018" source="_11aVwI_4EeyKGokipbNHzw" target="_uQrZAI_4EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_313Kk4_4EeyKGokipbNHzw" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_313KlI_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_313KlY_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_313KkY_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_313Kko_4EeyKGokipbNHzw" points="[0, 0, 41, 108]$[19, -68, 60, 40]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_314YsI_4EeyKGokipbNHzw" id="(1.0,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_9wHigI_4EeyKGokipbNHzw" type="4017" source="_9K_cMI_4EeyKGokipbNHzw" target="_sYmdEI_4EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9wHig4_4EeyKGokipbNHzw" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_9wHihI_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9wHihY_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_9wHigY_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9wHigo_4EeyKGokipbNHzw" points="[0, 0, -250, -86]$[0, 0, -250, -86]$[247, 84, -3, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9wIJkI_4EeyKGokipbNHzw" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9wIJkY_4EeyKGokipbNHzw" id="(0.025,0.4875)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-fB28I_4EeyKGokipbNHzw" type="4017" source="_9K_cMI_4EeyKGokipbNHzw" target="_pxG2YI_4EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-fB284_4EeyKGokipbNHzw" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_-fB29I_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-fB29Y_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-fB28Y_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-fB28o_4EeyKGokipbNHzw" points="[0, -4, -227, 0]$[210, -6, -17, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-fDFEI_4EeyKGokipbNHzw" id="(0.5,0.125)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-fDFEY_4EeyKGokipbNHzw" id="(0.14166666666666666,0.4625)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__ECBcI_4EeyKGokipbNHzw" type="4018" source="_9K_cMI_4EeyKGokipbNHzw" target="_EZwHMI9wEeysjcpBPOISGg" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="__ECBc4_4EeyKGokipbNHzw" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="__ECBdI_4EeyKGokipbNHzw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__ECBdY_4EeyKGokipbNHzw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="__ECBcY_4EeyKGokipbNHzw" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__ECBco_4EeyKGokipbNHzw" points="[0, -1, 78, 0]$[-65, -1, 13, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ECogI_4EeyKGokipbNHzw" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ECogY_4EeyKGokipbNHzw" id="(0.8916666666666667,0.525)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_hYYtYI_3EeyKGokipbNHzw" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_lJMskI_3EeyKGokipbNHzw" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lJMsko_3EeyKGokipbNHzw" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lJMskY_3EeyKGokipbNHzw" x="440" y="35" width="152"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_4VBAYJAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4VBAYpAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4VBAYZAnEeycdoVYjDr1nA" x="780" y="-10" width="136"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5xQ78JAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5xQ78pAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5xQ78ZAnEeycdoVYjDr1nA" x="790" y="86"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_59hPQJAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_59hPQpAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.3"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59hPQZAnEeycdoVYjDr1nA" x="70" y="-5" width="191"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_6LeywJAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6LfZ0ZAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.4"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6LfZ0JAnEeycdoVYjDr1nA" x="85" y="90"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_6nVBQJAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6nVBQpAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.5"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nVBQZAnEeycdoVYjDr1nA" x="90" y="190"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_8oyisJAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8ozJwZAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.6"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ozJwJAnEeycdoVYjDr1nA" x="800" y="190" width="166" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_89oKQJAnEeycdoVYjDr1nA" type="2005" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_89oKQpAnEeycdoVYjDr1nA" type="5005"/>
+      <element xmi:type="sacm2:ArgumentReasoning" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.7"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_89oKQZAnEeycdoVYjDr1nA" x="465" y="210" width="191"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-5muwJAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-5muwpAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.8"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-5muwZAnEeycdoVYjDr1nA" x="220" y="355" width="150"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__ESUwJAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="__ES70JAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.9"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__ESUwZAnEeycdoVYjDr1nA" x="420" y="355" width="181"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__ObvQJAnEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="__ObvQpAnEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.10"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__ObvQZAnEeycdoVYjDr1nA" x="650" y="355" width="146"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_D3vcsJAoEeycdoVYjDr1nA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D3vcspAoEeycdoVYjDr1nA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.11"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3vcsZAoEeycdoVYjDr1nA" x="235" y="600" width="181"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_vo5IUJAoEeycdoVYjDr1nA" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.12"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vo5IUZAoEeycdoVYjDr1nA" x="320" y="80"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_y1JB4JAoEeycdoVYjDr1nA" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.13"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y1JB4ZAoEeycdoVYjDr1nA" x="690" y="90"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_a9QxUJApEeycdoVYjDr1nA" type="2005" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_a9QxUpApEeycdoVYjDr1nA" type="5005"/>
+      <element xmi:type="sacm2:ArgumentReasoning" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.14"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9QxUZApEeycdoVYjDr1nA" x="540" y="465" width="251"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AUefYJAqEeycdoVYjDr1nA" type="2012" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedInference" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.15"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AUefYZAqEeycdoVYjDr1nA" x="425" y="250"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_FBfBEJAqEeycdoVYjDr1nA" type="2012" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedInference" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.16"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FBfBEZAqEeycdoVYjDr1nA" x="430" y="504"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_UGJTEJAqEeycdoVYjDr1nA" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.17"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UGJTEZAqEeycdoVYjDr1nA" x="735" y="240"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_JdDOoJBEEeykcstH7n4dEA" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JdDOopBEEeykcstH7n4dEA" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.18"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JdDOoZBEEeykcstH7n4dEA" x="490" y="605" width="251"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_hYYtYY_3EeyKGokipbNHzw"/>
+    <element xmi:type="sacm2:ArgumentPackage" href="case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.2"/>
+    <edges xmi:type="notation:Connector" xmi:id="_wMQUEJAoEeycdoVYjDr1nA" type="4018" source="_vo5IUJAoEeycdoVYjDr1nA" target="_lJMskI_3EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_wMQUE5AoEeycdoVYjDr1nA" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_wMQUFJAoEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wMQUFZAoEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_wMQUEZAoEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wMQUEpAoEeycdoVYjDr1nA" points="[0, 0, -143, 22]$[137, -23, -6, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wOo5sJAoEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wOo5sZAoEeycdoVYjDr1nA" id="(0.039473684210526314,0.475)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_xk4T4JAoEeycdoVYjDr1nA" type="4017" source="_vo5IUJAoEeycdoVYjDr1nA" target="_59hPQJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xk468JAoEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_xk468ZAoEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xk468pAoEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xk4T4ZAoEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xk4T4pAoEeycdoVYjDr1nA" points="[-8, -7, 55, 41]$[-47, -46, 16, 2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xk5iAJAoEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xk5iAZAoEeycdoVYjDr1nA" id="(0.8865248226950354,0.5875)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_x86ZYJAoEeycdoVYjDr1nA" type="4017" source="_vo5IUJAoEeycdoVYjDr1nA" target="_6nVBQJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_x87AcJAoEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_x87AcZAoEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_x87AcpAoEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_x86ZYZAoEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x86ZYpAoEeycdoVYjDr1nA" points="[0, 0, 87, -141]$[-78, 141, 9, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x881oJAoEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x881oZAoEeycdoVYjDr1nA" id="(0.925,0.5125)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_zcFGEJAoEeycdoVYjDr1nA" type="4017" source="_y1JB4JAoEeycdoVYjDr1nA" target="_5xQ78JAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zcFGE5AoEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zcFGFJAoEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zcFGFZAoEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_zcFGEZAoEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zcFGEpAoEeycdoVYjDr1nA" points="[0, 0, -168, -41]$[144, 43, -24, 2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zcFGFpAoEeycdoVYjDr1nA" id="(1.0,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zcFGF5AoEeycdoVYjDr1nA" id="(0.2,0.55)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-C3pIJApEeycdoVYjDr1nA" type="4018" source="_y1JB4JAoEeycdoVYjDr1nA" target="_lJMskI_3EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-C3pI5ApEeycdoVYjDr1nA" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_-C3pJJApEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-C3pJZApEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-C3pIZApEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-C3pIpApEeycdoVYjDr1nA" points="[-8, -3, 61, 20]$[-54, -24, 15, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-C3pJpApEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-C3pJ5ApEeycdoVYjDr1nA" id="(0.9013157894736842,0.4875)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__Y4Z0JApEeycdoVYjDr1nA" type="4017" source="_y1JB4JAoEeycdoVYjDr1nA" target="_4VBAYJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="__Y4Z05ApEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="__Y4Z1JApEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__Y4Z1ZApEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="__Y4Z0ZApEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__Y4Z0pApEeycdoVYjDr1nA" points="[0, 0, -90, 73]$[82, -75, -8, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__Y4Z1pApEeycdoVYjDr1nA" id="(1.0,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__Y4Z15ApEeycdoVYjDr1nA" id="(0.058823529411764705,0.3375)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_BeFLwJAqEeycdoVYjDr1nA" type="4017" source="_AUefYJAqEeycdoVYjDr1nA" target="_-5muwJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BeFLw5AqEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BeFLxJAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BeFLxZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_BeFLwZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BeFLwpAqEeycdoVYjDr1nA" points="[0, 0, 60, -119]$[-55, 109, 5, -10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BeFLxpAqEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BeFLx5AqEeycdoVYjDr1nA" id="(0.6066666666666667,0.125)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Bu-ugJAqEeycdoVYjDr1nA" type="4017" source="_AUefYJAqEeycdoVYjDr1nA" target="__ESUwJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Bu-ug5AqEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Bu-uhJAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Bu-uhZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Bu-ugZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bu-ugpAqEeycdoVYjDr1nA" points="[0, 0, -106, -115]$[100, 109, -6, -6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bu-uhpAqEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bu-uh5AqEeycdoVYjDr1nA" id="(0.3149171270718232,0.075)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_CLhgkJAqEeycdoVYjDr1nA" type="4017" source="_AUefYJAqEeycdoVYjDr1nA" target="__ObvQJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_CLhgk5AqEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_CLhglJAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CLhglZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_CLhgkZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CLhgkpAqEeycdoVYjDr1nA" points="[0, 0, -304, -117]$[292, 109, -12, -8]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CLhglpAqEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CLhgl5AqEeycdoVYjDr1nA" id="(0.17123287671232876,0.1)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_C-aWEJAqEeycdoVYjDr1nA" type="4018" source="_AUefYJAqEeycdoVYjDr1nA" target="_lJMskI_3EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_C-aWE5AqEeycdoVYjDr1nA" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_C-aWFJAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_C-aWFZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_C-aWEZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C-aWEpAqEeycdoVYjDr1nA" points="[0, 0, -112, 134]$[109, -131, -3, 3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C-aWFpAqEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C-aWF5AqEeycdoVYjDr1nA" id="(0.28289473684210525,0.9625)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DqpxAJAqEeycdoVYjDr1nA" type="4012" source="_AUefYJAqEeycdoVYjDr1nA" target="_89oKQJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_DqpxA5AqEeycdoVYjDr1nA" type="6002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_DqpxBJAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DqpxBZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DqpxAZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DqpxApAqEeycdoVYjDr1nA" points="[0, 0, -121, -15]$[104, 15, -17, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Dqy68JAqEeycdoVYjDr1nA" id="(1.0,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Dqy68ZAqEeycdoVYjDr1nA" id="(0.07203389830508475,0.5375)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_FsDBAJAqEeycdoVYjDr1nA" type="4018" source="_FBfBEJAqEeycdoVYjDr1nA" target="__ESUwJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_FsDBA5AqEeycdoVYjDr1nA" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_FsDBBJAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FsDBBZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_FsDBAZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FsDBApAqEeycdoVYjDr1nA" points="[7, -8, -77, 83]$[85, -77, 1, 14]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FsDBBpAqEeycdoVYjDr1nA" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FsDBB5AqEeycdoVYjDr1nA" id="(0.5193370165745856,0.825)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Gk8-8JAqEeycdoVYjDr1nA" type="4017" source="_FBfBEJAqEeycdoVYjDr1nA" target="_D3vcsJAoEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Gk8-85AqEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Gk8-9JAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Gk8-9ZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Gk8-8ZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gk8-8pAqEeycdoVYjDr1nA" points="[0, 0, 72, -101]$[-64, 88, 8, -13]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gk8-9pAqEeycdoVYjDr1nA" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gk8-95AqEeycdoVYjDr1nA" id="(0.65,0.1625)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Hn0xMJAqEeycdoVYjDr1nA" type="4012" source="_FBfBEJAqEeycdoVYjDr1nA" target="_a9QxUJApEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Hn0xM5AqEeycdoVYjDr1nA" type="6002">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Hn0xNJAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hn0xNZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Hn0xMZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hn0xMpAqEeycdoVYjDr1nA" points="[8, -8, -113, 0]$[110, -9, -11, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hn0xNpAqEeycdoVYjDr1nA" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hn0xN5AqEeycdoVYjDr1nA" id="(0.043824701195219126,0.4875)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_VYpcwJAqEeycdoVYjDr1nA" type="4018" source="_UGJTEJAqEeycdoVYjDr1nA" target="_89oKQJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VYqD0JAqEeycdoVYjDr1nA" type="6008">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VYqD0ZAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VYqD0pAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_VYpcwZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VYpcwpAqEeycdoVYjDr1nA" points="[0, -4, 81, -13]$[-65, 9, 16, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VYqq4JAqEeycdoVYjDr1nA" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VYqq4ZAqEeycdoVYjDr1nA" id="(0.9162303664921466,0.5125)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_WEl8wJAqEeycdoVYjDr1nA" type="4017" source="_UGJTEJAqEeycdoVYjDr1nA" target="_8oyisJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_WEl8w5AqEeycdoVYjDr1nA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_WEl8xJAqEeycdoVYjDr1nA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WEl8xZAqEeycdoVYjDr1nA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_WEl8wZAqEeycdoVYjDr1nA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WEl8wpAqEeycdoVYjDr1nA" points="[0, -6, -131, 1]$[71, -6, -60, 1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WEmj0JAqEeycdoVYjDr1nA" id="(1.0,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_S9uToJBEEeykcstH7n4dEA" type="4020" source="_JdDOoJBEEeykcstH7n4dEA" target="_lJMskI_3EeyKGokipbNHzw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_S9uTo5BEEeykcstH7n4dEA" type="6010">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_S9uTpJBEEeykcstH7n4dEA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_S9uTpZBEEeykcstH7n4dEA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_S9uToZBEEeykcstH7n4dEA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S9uTopBEEeykcstH7n4dEA" points="[126, -24, 225, 546]$[325, -60, 424, 510]$[325, -220, 424, 350]$[-51, -530, 48, 40]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_dxf_QJBEEeykcstH7n4dEA" type="4017" source="_FBfBEJAqEeycdoVYjDr1nA" target="_JdDOoJBEEeykcstH7n4dEA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dxf_Q5BEEeykcstH7n4dEA" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_dxf_RJBEEeykcstH7n4dEA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dxf_RZBEEeykcstH7n4dEA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dxf_QZBEEeykcstH7n4dEA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dxf_QpBEEeykcstH7n4dEA" points="[0, 0, -177, -133]$[53, 93, -124, -40]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxpwQJBEEeykcstH7n4dEA" id="(1.0,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_zeI2sN_BEe2ciP6-BtLM0w" type="4017" source="_vo5IUJAoEeycdoVYjDr1nA" target="_6LeywJAnEeycdoVYjDr1nA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zeI2s9_BEe2ciP6-BtLM0w" type="6007">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_zeI2tN_BEe2ciP6-BtLM0w"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zeI2td_BEe2ciP6-BtLM0w" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_zeI2sd_BEe2ciP6-BtLM0w" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zeI2st_BEe2ciP6-BtLM0w" points="[0, 0, 129, -39]$[-123, 38, 6, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeKr4N_BEe2ciP6-BtLM0w" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zeKr4d_BEe2ciP6-BtLM0w" id="(0.95,0.4625)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_j-W3wJDAEeyqwYVgxwhDeA" type="Sacm2ArtifactPackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_DDjDwJDlEey6AbQsMyPrrA" type="2014" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_DDjq0JDlEey6AbQsMyPrrA" type="5014"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DDjDwZDlEey6AbQsMyPrrA" x="580" y="5" width="181"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_DqvmoJDlEey6AbQsMyPrrA" type="2015" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_DqvmopDlEey6AbQsMyPrrA" type="5015"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DqvmoZDlEey6AbQsMyPrrA" x="965" y="225" width="181" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_EQLO8JDlEey6AbQsMyPrrA" type="2017" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_EQLO8pDlEey6AbQsMyPrrA" type="5017"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EQLO8ZDlEey6AbQsMyPrrA" x="260" y="215" width="246" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ejsn4JDlEey6AbQsMyPrrA" type="2019" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ejsn4pDlEey6AbQsMyPrrA" type="5019"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ejsn4ZDlEey6AbQsMyPrrA" x="850" y="435" width="161"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_FL4CMJDlEey6AbQsMyPrrA" type="2018" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_FL4CMpDlEey6AbQsMyPrrA" type="5018"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FL4CMZDlEey6AbQsMyPrrA" x="545" y="415" width="191" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_rLZGYJDlEey6AbQsMyPrrA" type="2040" fontName="Arial" bold="true" lineColor="0">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rLZGYZDlEey6AbQsMyPrrA" x="785" y="265"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_j-W3wZDAEeyqwYVgxwhDeA"/>
+    <edges xmi:type="notation:Connector" xmi:id="_r7jYAJDlEey6AbQsMyPrrA" type="4025" source="_rLZGYJDlEey6AbQsMyPrrA" target="_EQLO8JDlEey6AbQsMyPrrA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_r7jYA5DlEey6AbQsMyPrrA" type="6014">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_r7jYBJDlEey6AbQsMyPrrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r7jYBZDlEey6AbQsMyPrrA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_r7jYAZDlEey6AbQsMyPrrA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r7jYApDlEey6AbQsMyPrrA" points="[0, 0, 298, -91]$[-298, 85, 0, -6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r8SX0JDlEey6AbQsMyPrrA" id="(0.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r8SX0ZDlEey6AbQsMyPrrA" id="(0.5256410256410257,0.075)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_seK84JDlEey6AbQsMyPrrA" type="4025" source="_rLZGYJDlEey6AbQsMyPrrA" target="_FL4CMJDlEey6AbQsMyPrrA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_seK845DlEey6AbQsMyPrrA" type="6014">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_seK85JDlEey6AbQsMyPrrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_seK85ZDlEey6AbQsMyPrrA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_seK84ZDlEey6AbQsMyPrrA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_seK84pDlEey6AbQsMyPrrA" points="[0, 0, 84, -81]$[-84, 80, 0, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_seMyEJDlEey6AbQsMyPrrA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_seMyEZDlEey6AbQsMyPrrA" id="(0.7080745341614907,0.0125)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_taNuYJDlEey6AbQsMyPrrA" type="4025" source="_rLZGYJDlEey6AbQsMyPrrA" target="_Ejsn4JDlEey6AbQsMyPrrA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_taNuY5DlEey6AbQsMyPrrA" type="6014">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_taNuZJDlEey6AbQsMyPrrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_taNuZZDlEey6AbQsMyPrrA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_taNuYZDlEey6AbQsMyPrrA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_taNuYpDlEey6AbQsMyPrrA" points="[0, 0, -90, -89]$[91, 85, 1, -4]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_taO8gJDlEey6AbQsMyPrrA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_taO8gZDlEey6AbQsMyPrrA" id="(0.577639751552795,0.05)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_u4vh4JDlEey6AbQsMyPrrA" type="4025" source="_rLZGYJDlEey6AbQsMyPrrA" target="_DqvmoJDlEey6AbQsMyPrrA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_u4vh45DlEey6AbQsMyPrrA" type="6014">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_u4vh5JDlEey6AbQsMyPrrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u4vh5ZDlEey6AbQsMyPrrA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_u4vh4ZDlEey6AbQsMyPrrA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u4vh4pDlEey6AbQsMyPrrA" points="[0, 0, -282, -85]$[282, 85, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u4wwAJDlEey6AbQsMyPrrA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u4wwAZDlEey6AbQsMyPrrA" id="(0.5960264900662252,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_vrZt4JDlEey6AbQsMyPrrA" type="4026" source="_rLZGYJDlEey6AbQsMyPrrA" target="_DDjDwJDlEey6AbQsMyPrrA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_vrZt45DlEey6AbQsMyPrrA" type="6015">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_vraU8JDlEey6AbQsMyPrrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vraU8ZDlEey6AbQsMyPrrA" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_vrZt4ZDlEey6AbQsMyPrrA" fontName="Arial" bold="true"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vrZt4pDlEey6AbQsMyPrrA" points="[0, 0, -29, 43]$[53, -27, 24, 16]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vsGRcJDlEey6AbQsMyPrrA" id="(1.0,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vsGRcZDlEey6AbQsMyPrrA" id="(0.7417218543046358,0.8)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_600c4KRuEey36pUeyVlX9g" type="Sacm2ArtifactPackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_8AAdoKRuEey36pUeyVlX9g" type="2014" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8AAdoqRuEey36pUeyVlX9g" type="5014"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8AAdoaRuEey36pUeyVlX9g" x="205" y="55"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_600c4aRuEey36pUeyVlX9g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_xPy1oL-dEe2BjZjig7jIqw" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_xPy1ob-dEe2BjZjig7jIqw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3aKewNuMEe2OONwNx4YHPA" type="Sacm2ArtifactPackage" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3aKewduMEe2OONwNx4YHPA"/>
+    <element xmi:type="sacm2:ArtifactPackage" href="case_study.sacm2#//@assuranceCasePackage.0/@artifactPackage.1"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_4aEckNuMEe2OONwNx4YHPA" type="Sacm2ArtifactPackage" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_4aEckduMEe2OONwNx4YHPA"/>
+    <element xmi:type="sacm2:ArtifactPackage" href="case_study.sacm2#//@assuranceCasePackage.0/@artifactPackage.0"/>
+  </notation:Diagram>
+</xmi:XMI>

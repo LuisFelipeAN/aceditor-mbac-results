@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="ASCII"?>
+<integration_:DDIPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:failureLogic_="http://www.deis-project.eu/ode/mergedODE/failureLogic" xmlns:integration_="http://www.deis-project.eu/ode/mergedODE/integration" xmi:id="_3wylANNHEe26t57CMonIlg" name="DDI">
+  <odeProductPackages xsi:type="failureLogic_:FailureLogicPackage" Id="1" name="HBS - FailureLogicPackage">
+    <failureModels xsi:type="failureLogic_:FaultTree" Id="2" name="No_Braking_3_Wheels">
+      <failures Id="121" name="No_Braking_3_Wheels" originType="Internal"/>
+      <failures Id="122" name="Omission-Brake_Unit1.EMB.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="123" name="Brake_Unit1.EMB.OFailure1" originType="Internal"/>
+      <failures Id="124" name="Brake_Unit1.EMB_Power_Converter.OFailure1" originType="Internal"/>
+      <failures Id="125" name="Auxiliary_Battery.OFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="126" name="Brake_Unit1.Wheel_Node_Controller.OFailure1" originType="Internal"/>
+      <failures Id="127" name="Omission-Brake_Unit1.Wheel_Node_Controller.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="128" name="Omission-Brake_Unit1.In1" failureClass="Omission"/>
+      <failures Id="129" name="Communication_Bus1.OFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="130" name="Omission-Communication_Bus1.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="131" name="Omission-Electronic_Pedal.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="132" name="Electronic_Pedal.OFailure1" originType="Internal"/>
+      <failures Id="133" name="Mechanical_Pedal.OFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="134" name="Omission-Electronic_Pedal.Out2" originType="Output" failureClass="Omission"/>
+      <failures Id="135" name="Electronic_Pedal.OFailure2" originType="Internal"/>
+      <failures Id="136" name="Omission-Brake_Unit1.In2" failureClass="Omission"/>
+      <failures Id="137" name="Communication_Bus2.OFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="138" name="Omission-Communication_Bus2.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="139" name="Omission-Brake_Unit1.IWM.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="140" name="Brake_Unit1.IWM.OFailure1" originType="Internal"/>
+      <failures Id="141" name="Powertrain_Battery.OFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="142" name="Brake_Unit1.IWM_Power_Converter.OFailure1" originType="Internal"/>
+      <failures Id="143" name="Brake_Unit1.Wheel_Node_Controller.OFailure2" originType="Internal"/>
+      <failures Id="144" name="Omission-Brake_Unit1.Wheel_Node_Controller.Out2" originType="Output" failureClass="Omission"/>
+      <failures Id="145" name="Omission-Brake_Unit2.EMB.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="146" name="Brake_Unit2.EMB.OFailure1" originType="Internal"/>
+      <failures Id="147" name="Brake_Unit2.EMB_Power_Converter.OFailure1" originType="Internal"/>
+      <failures Id="148" name="Brake_Unit2.Wheel_Node_Controller.OFailure1" originType="Internal"/>
+      <failures Id="149" name="Omission-Brake_Unit2.Wheel_Node_Controller.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="150" name="Omission-Brake_Unit2.In1" failureClass="Omission"/>
+      <failures Id="151" name="Omission-Brake_Unit2.In2" failureClass="Omission"/>
+      <failures Id="152" name="Omission-Brake_Unit2.IWM.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="153" name="Brake_Unit2.IWM.OFailure1" originType="Internal"/>
+      <failures Id="154" name="Brake_Unit2.IWM_Power_Converter.OFailure1" originType="Internal"/>
+      <failures Id="155" name="Brake_Unit2.Wheel_Node_Controller.OFailure2" originType="Internal"/>
+      <failures Id="156" name="Omission-Brake_Unit2.Wheel_Node_Controller.Out2" originType="Output" failureClass="Omission"/>
+      <failures Id="157" name="Omission-Brake_Unit3.EMB.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="158" name="Brake_Unit3.EMB.OFailure1" originType="Internal"/>
+      <failures Id="159" name="Brake_Unit3.EMB_Power_Converter.OFailure1" originType="Internal"/>
+      <failures Id="160" name="Brake_Unit3.Wheel_Node_Controller.OFailure1" originType="Internal"/>
+      <failures Id="161" name="Omission-Brake_Unit3.Wheel_Node_Controller.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="162" name="Omission-Brake_Unit3.In1" failureClass="Omission"/>
+      <failures Id="163" name="Omission-Brake_Unit3.In2" failureClass="Omission"/>
+      <failures Id="164" name="Omission-Brake_Unit3.IWM.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="165" name="Brake_Unit3.IWM.OFailure1" originType="Internal"/>
+      <failures Id="166" name="Brake_Unit3.IWM_Power_Converter.OFailure1" originType="Internal"/>
+      <failures Id="167" name="Brake_Unit3.Wheel_Node_Controller.OFailure2" originType="Internal"/>
+      <failures Id="168" name="Omission-Brake_Unit3.Wheel_Node_Controller.Out2" originType="Output" failureClass="Omission"/>
+      <causes xsi:type="failureLogic_:Gate" Id="3" name="No_Braking_3_Wheels" description="And1651 (TOP-EVENT)" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.0" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.1 //@odeProductPackages.0/@failureModels.0/@causes.18 //@odeProductPackages.0/@failureModels.0/@causes.24 //@odeProductPackages.0/@failureModels.0/@causes.31 //@odeProductPackages.0/@failureModels.0/@causes.36 //@odeProductPackages.0/@failureModels.0/@causes.43">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="4" name="Omission-Brake_Unit1.EMB.Out1" description="Or1667" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.1" causes="//@odeProductPackages.0/@failureModels.0/@causes.2 //@odeProductPackages.0/@failureModels.0/@causes.3 //@odeProductPackages.0/@failureModels.0/@causes.4 //@odeProductPackages.0/@failureModels.0/@causes.5 //@odeProductPackages.0/@failureModels.0/@causes.6">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="5" name="Brake_Unit1.EMB.OFailure1" description="BasicEvent21" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.2">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="6" name="Brake_Unit1.EMB_Power_Converter.OFailure1" description="BasicEvent36" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.3">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="7" name="Auxiliary_Battery.OFailure1" description="BasicEvent1" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.4">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="C"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="8" name="Brake_Unit1.Wheel_Node_Controller.OFailure1" description="BasicEvent101" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.5">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="9" name="Omission-Brake_Unit1.Wheel_Node_Controller.Out1" description="And108" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.6" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.7 //@odeProductPackages.0/@failureModels.0/@causes.15">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="10" name="Omission-Brake_Unit1.In1" description="Or1670" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.7" causes="//@odeProductPackages.0/@failureModels.0/@causes.8 //@odeProductPackages.0/@failureModels.0/@causes.9">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="11" name="Communication_Bus1.OFailure1" description="BasicEvent611" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.8">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="B"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="12" name="Omission-Communication_Bus1.Out1" description="And615" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.9" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.10 //@odeProductPackages.0/@failureModels.0/@causes.13">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="13" name="Omission-Electronic_Pedal.Out1" description="Or1672" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.10" causes="//@odeProductPackages.0/@failureModels.0/@causes.11 //@odeProductPackages.0/@failureModels.0/@causes.12">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="14" name="Electronic_Pedal.OFailure1" description="BasicEvent659" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.11">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="15" name="Mechanical_Pedal.OFailure1" description="BasicEvent683" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.12">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="16" name="Omission-Electronic_Pedal.Out2" description="Or1674" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.13" causes="//@odeProductPackages.0/@failureModels.0/@causes.14 //@odeProductPackages.0/@failureModels.0/@causes.12">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="17" name="Electronic_Pedal.OFailure2" description="BasicEvent660" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.14">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="QM"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="18" name="Omission-Brake_Unit1.In2" description="Or1675" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.15" causes="//@odeProductPackages.0/@failureModels.0/@causes.16 //@odeProductPackages.0/@failureModels.0/@causes.17">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="19" name="Communication_Bus2.OFailure1" description="BasicEvent635" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.16">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="B"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="20" name="Omission-Communication_Bus2.Out1" description="And639" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.17" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.10 //@odeProductPackages.0/@failureModels.0/@causes.13">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="21" name="Omission-Brake_Unit1.IWM.Out1" description="Or1679" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.18" causes="//@odeProductPackages.0/@failureModels.0/@causes.19 //@odeProductPackages.0/@failureModels.0/@causes.20 //@odeProductPackages.0/@failureModels.0/@causes.21 //@odeProductPackages.0/@failureModels.0/@causes.22 //@odeProductPackages.0/@failureModels.0/@causes.23">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="22" name="Brake_Unit1.IWM.OFailure1" description="BasicEvent53" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.19">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="23" name="Powertrain_Battery.OFailure1" description="BasicEvent689" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.20">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="24" name="Brake_Unit1.IWM_Power_Converter.OFailure1" description="BasicEvent78" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.21">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="25" name="Brake_Unit1.Wheel_Node_Controller.OFailure2" description="BasicEvent102" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.22">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="26" name="Omission-Brake_Unit1.Wheel_Node_Controller.Out2" description="And119" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.23" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.7 //@odeProductPackages.0/@failureModels.0/@causes.15">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="27" name="Omission-Brake_Unit2.EMB.Out1" description="Or1684" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.24" causes="//@odeProductPackages.0/@failureModels.0/@causes.25 //@odeProductPackages.0/@failureModels.0/@causes.26 //@odeProductPackages.0/@failureModels.0/@causes.4 //@odeProductPackages.0/@failureModels.0/@causes.27 //@odeProductPackages.0/@failureModels.0/@causes.28">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="28" name="Brake_Unit2.EMB.OFailure1" description="BasicEvent172" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.25">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="C"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="29" name="Brake_Unit2.EMB_Power_Converter.OFailure1" description="BasicEvent187" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.26">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="C"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="30" name="Brake_Unit2.Wheel_Node_Controller.OFailure1" description="BasicEvent252" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.27">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="31" name="Omission-Brake_Unit2.Wheel_Node_Controller.Out1" description="And259" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.28" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.29 //@odeProductPackages.0/@failureModels.0/@causes.30">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="32" name="Omission-Brake_Unit2.In1" description="Or1687" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.29" causes="//@odeProductPackages.0/@failureModels.0/@causes.8 //@odeProductPackages.0/@failureModels.0/@causes.9">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="33" name="Omission-Brake_Unit2.In2" description="Or1688" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.30" causes="//@odeProductPackages.0/@failureModels.0/@causes.16 //@odeProductPackages.0/@failureModels.0/@causes.17">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="34" name="Omission-Brake_Unit2.IWM.Out1" description="Or1690" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.31" causes="//@odeProductPackages.0/@failureModels.0/@causes.32 //@odeProductPackages.0/@failureModels.0/@causes.20 //@odeProductPackages.0/@failureModels.0/@causes.33 //@odeProductPackages.0/@failureModels.0/@causes.34 //@odeProductPackages.0/@failureModels.0/@causes.35">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="35" name="Brake_Unit2.IWM.OFailure1" description="BasicEvent204" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.32">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="B"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="36" name="Brake_Unit2.IWM_Power_Converter.OFailure1" description="BasicEvent229" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.33">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="B"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="37" name="Brake_Unit2.Wheel_Node_Controller.OFailure2" description="BasicEvent253" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.34">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="B"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="38" name="Omission-Brake_Unit2.Wheel_Node_Controller.Out2" description="And270" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.35" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.29 //@odeProductPackages.0/@failureModels.0/@causes.30">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="39" name="Omission-Brake_Unit3.EMB.Out1" description="Or1694" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.36" causes="//@odeProductPackages.0/@failureModels.0/@causes.37 //@odeProductPackages.0/@failureModels.0/@causes.38 //@odeProductPackages.0/@failureModels.0/@causes.4 //@odeProductPackages.0/@failureModels.0/@causes.39 //@odeProductPackages.0/@failureModels.0/@causes.40">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="40" name="Brake_Unit3.EMB.OFailure1" description="BasicEvent323" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.37"/>
+      <causes Id="41" name="Brake_Unit3.EMB_Power_Converter.OFailure1" description="BasicEvent338" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.38"/>
+      <causes Id="42" name="Brake_Unit3.Wheel_Node_Controller.OFailure1" description="BasicEvent403" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.39"/>
+      <causes xsi:type="failureLogic_:Gate" Id="43" name="Omission-Brake_Unit3.Wheel_Node_Controller.Out1" description="And410" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.40" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.41 //@odeProductPackages.0/@failureModels.0/@causes.42">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="44" name="Omission-Brake_Unit3.In1" description="Or1697" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.41" causes="//@odeProductPackages.0/@failureModels.0/@causes.8 //@odeProductPackages.0/@failureModels.0/@causes.9">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="45" name="Omission-Brake_Unit3.In2" description="Or1698" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.42" causes="//@odeProductPackages.0/@failureModels.0/@causes.16 //@odeProductPackages.0/@failureModels.0/@causes.17">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="46" name="Omission-Brake_Unit3.IWM.Out1" description="Or1700" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.43" causes="//@odeProductPackages.0/@failureModels.0/@causes.44 //@odeProductPackages.0/@failureModels.0/@causes.20 //@odeProductPackages.0/@failureModels.0/@causes.45 //@odeProductPackages.0/@failureModels.0/@causes.46 //@odeProductPackages.0/@failureModels.0/@causes.47">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="47" name="Brake_Unit3.IWM.OFailure1" description="BasicEvent355" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.44"/>
+      <causes Id="48" name="Brake_Unit3.IWM_Power_Converter.OFailure1" description="BasicEvent380" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.45"/>
+      <causes Id="49" name="Brake_Unit3.Wheel_Node_Controller.OFailure2" description="BasicEvent404" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.0/@failures.46"/>
+      <causes xsi:type="failureLogic_:Gate" Id="50" name="Omission-Brake_Unit3.Wheel_Node_Controller.Out2" description="And421" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.0/@failures.47" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.41 //@odeProductPackages.0/@failureModels.0/@causes.42">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+    </failureModels>
+    <failureModels xsi:type="failureLogic_:FaultTree" Id="51" name="No_Braking_4_Wheels">
+      <failures Id="169" name="No_Braking_4_Wheels" originType="Internal"/>
+      <failures Id="170" name="Omission-Brake_Unit4.EMB.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="171" name="Brake_Unit4.EMB.OFailure1" originType="Internal"/>
+      <failures Id="172" name="Brake_Unit4.EMB_Power_Converter.OFailure1" originType="Internal"/>
+      <failures Id="173" name="Brake_Unit4.Wheel_Node_Controller.OFailure1" originType="Internal"/>
+      <failures Id="174" name="Omission-Brake_Unit4.Wheel_Node_Controller.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="175" name="Omission-Brake_Unit4.In1" failureClass="Omission"/>
+      <failures Id="176" name="Omission-Brake_Unit4.In2" failureClass="Omission"/>
+      <failures Id="177" name="Omission-Brake_Unit4.IWM.Out1" originType="Output" failureClass="Omission"/>
+      <failures Id="178" name="Brake_Unit4.IWM.OFailure1" originType="Internal"/>
+      <failures Id="179" name="Brake_Unit4.IWM_Power_Converter.OFailure1" originType="Internal"/>
+      <failures Id="180" name="Brake_Unit4.Wheel_Node_Controller.OFailure2" originType="Internal"/>
+      <failures Id="181" name="Omission-Brake_Unit4.Wheel_Node_Controller.Out2" originType="Output" failureClass="Omission"/>
+      <causes xsi:type="failureLogic_:Gate" Id="52" name="No_Braking_4_Wheels" description="And1715 (TOP-EVENT)" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.1/@failures.0" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.1 //@odeProductPackages.0/@failureModels.0/@causes.18 //@odeProductPackages.0/@failureModels.0/@causes.24 //@odeProductPackages.0/@failureModels.0/@causes.31 //@odeProductPackages.0/@failureModels.0/@causes.36 //@odeProductPackages.0/@failureModels.0/@causes.43 //@odeProductPackages.0/@failureModels.1/@causes.1 //@odeProductPackages.0/@failureModels.1/@causes.8">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="53" name="Omission-Brake_Unit4.EMB.Out1" description="Or1704" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.1/@failures.1" causes="//@odeProductPackages.0/@failureModels.1/@causes.2 //@odeProductPackages.0/@failureModels.1/@causes.3 //@odeProductPackages.0/@failureModels.0/@causes.4 //@odeProductPackages.0/@failureModels.1/@causes.4 //@odeProductPackages.0/@failureModels.1/@causes.5">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="54" name="Brake_Unit4.EMB.OFailure1" description="BasicEvent474" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.1/@failures.2"/>
+      <causes Id="55" name="Brake_Unit4.EMB_Power_Converter.OFailure1" description="BasicEvent489" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.1/@failures.3"/>
+      <causes Id="56" name="Brake_Unit4.Wheel_Node_Controller.OFailure1" description="BasicEvent554" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.1/@failures.4"/>
+      <causes xsi:type="failureLogic_:Gate" Id="57" name="Omission-Brake_Unit4.Wheel_Node_Controller.Out1" description="And561" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.1/@failures.5" gateType="AND" causes="//@odeProductPackages.0/@failureModels.1/@causes.6 //@odeProductPackages.0/@failureModels.1/@causes.7">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="58" name="Omission-Brake_Unit4.In1" description="Or1707" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.1/@failures.6" causes="//@odeProductPackages.0/@failureModels.0/@causes.8 //@odeProductPackages.0/@failureModels.0/@causes.9">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="59" name="Omission-Brake_Unit4.In2" description="Or1708" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.1/@failures.7" causes="//@odeProductPackages.0/@failureModels.0/@causes.16 //@odeProductPackages.0/@failureModels.0/@causes.17">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="60" name="Omission-Brake_Unit4.IWM.Out1" description="Or1710" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.1/@failures.8" causes="//@odeProductPackages.0/@failureModels.1/@causes.9 //@odeProductPackages.0/@failureModels.0/@causes.20 //@odeProductPackages.0/@failureModels.1/@causes.10 //@odeProductPackages.0/@failureModels.1/@causes.11 //@odeProductPackages.0/@failureModels.1/@causes.12">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="61" name="Brake_Unit4.IWM.OFailure1" description="BasicEvent506" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.1/@failures.9"/>
+      <causes Id="62" name="Brake_Unit4.IWM_Power_Converter.OFailure1" description="BasicEvent531" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.1/@failures.10"/>
+      <causes Id="63" name="Brake_Unit4.Wheel_Node_Controller.OFailure2" description="BasicEvent555" causeType="OutputEvent" failure="//@odeProductPackages.0/@failureModels.1/@failures.11"/>
+      <causes xsi:type="failureLogic_:Gate" Id="64" name="Omission-Brake_Unit4.Wheel_Node_Controller.Out2" description="And572" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.1/@failures.12" gateType="AND" causes="//@odeProductPackages.0/@failureModels.1/@causes.6 //@odeProductPackages.0/@failureModels.1/@causes.7">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+    </failureModels>
+    <failureModels xsi:type="failureLogic_:FaultTree" Id="65" name="No_Braking_Diagonal">
+      <failures Id="182" name="No_Braking_Diagonal" originType="Internal"/>
+      <causes xsi:type="failureLogic_:Gate" Id="66" name="No_Braking_Diagonal" description="And1721 (TOP-EVENT)" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.2/@failures.0" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.1 //@odeProductPackages.0/@failureModels.0/@causes.18 //@odeProductPackages.0/@failureModels.1/@causes.1 //@odeProductPackages.0/@failureModels.1/@causes.8">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+    </failureModels>
+    <failureModels xsi:type="failureLogic_:FaultTree" Id="67" name="No_Braking_Front">
+      <failures Id="183" name="No_Braking_Front" originType="Internal"/>
+      <causes xsi:type="failureLogic_:Gate" Id="68" name="No_Braking_Front" description="And1728 (TOP-EVENT)" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.3/@failures.0" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.1 //@odeProductPackages.0/@failureModels.0/@causes.18 //@odeProductPackages.0/@failureModels.0/@causes.24 //@odeProductPackages.0/@failureModels.0/@causes.31">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+    </failureModels>
+    <failureModels xsi:type="failureLogic_:FaultTree" Id="69" name="No_Braking_Rear">
+      <failures Id="184" name="No_Braking_Rear" originType="Internal"/>
+      <causes xsi:type="failureLogic_:Gate" Id="70" name="No_Braking_Rear" description="And1732 (TOP-EVENT)" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.4/@failures.0" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.36 //@odeProductPackages.0/@failureModels.0/@causes.43 //@odeProductPackages.0/@failureModels.1/@causes.1 //@odeProductPackages.0/@failureModels.1/@causes.8">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+    </failureModels>
+    <failureModels xsi:type="failureLogic_:FaultTree" Id="71" name="Value_Braking">
+      <failures Id="185" name="Value_Braking" originType="Internal" failureClass="Value"/>
+      <failures Id="186" name="Value-Brake_Unit1.Add.Braking" originType="Internal" failureClass="Value"/>
+      <failures Id="187" name="Brake_Unit1.EMB.VFailure1" originType="Internal"/>
+      <failures Id="188" name="Brake_Unit1.EMB_Power_Converter.VFailure1" originType="Internal"/>
+      <failures Id="189" name="Auxiliary_Battery.VFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="190" name="Brake_Unit1.Wheel_Node_Controller.VFailure1" originType="Internal"/>
+      <failures Id="191" name="Value-Brake_Unit1.Wheel_Node_Controller.Out1" originType="Output" failureClass="Value"/>
+      <failures Id="192" name="Value-Brake_Unit1.In2" failureClass="Value"/>
+      <failures Id="193" name="Value-Communication_Bus2.Out1" originType="Output" failureClass="Value"/>
+      <failures Id="194" name="Value-Electronic_Pedal.Out2" originType="Output" failureClass="Value"/>
+      <failures Id="195" name="Electronic_Pedal.VFailure2" originType="Internal"/>
+      <failures Id="196" name="Mechanical_Pedal.VFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="197" name="Electronic_Pedal.VFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="198" name="Value-Communication_Bus1.Out1" originType="Output" failureClass="Value"/>
+      <failures Id="199" name="Brake_Unit1.IWM.VFailure1" originType="Internal"/>
+      <failures Id="200" name="Powertrain_Battery.VFailure1" originType="Internal" isCcf="true"/>
+      <failures Id="201" name="Brake_Unit1.IWM_Power_Converter.VFailure1" originType="Internal"/>
+      <failures Id="202" name="Brake_Unit1.Wheel_Node_Controller.VFailure2" originType="Internal"/>
+      <failures Id="203" name="Value-Brake_Unit1.Wheel_Node_Controller.Out2" originType="Output" failureClass="Value"/>
+      <failures Id="204" name="Value-Brake_Unit2.Add.Braking" originType="Internal" failureClass="Value"/>
+      <failures Id="205" name="Brake_Unit2.EMB.VFailure1" originType="Internal"/>
+      <failures Id="206" name="Brake_Unit2.EMB_Power_Converter.VFailure1" originType="Internal"/>
+      <failures Id="207" name="Brake_Unit2.Wheel_Node_Controller.VFailure1" originType="Internal"/>
+      <failures Id="208" name="Value-Brake_Unit2.Wheel_Node_Controller.Out1" originType="Output" failureClass="Value"/>
+      <failures Id="209" name="Value-Brake_Unit2.In2" failureClass="Value"/>
+      <failures Id="210" name="Brake_Unit2.IWM.VFailure1" originType="Internal"/>
+      <failures Id="211" name="Brake_Unit2.IWM_Power_Converter.VFailure1" originType="Internal"/>
+      <failures Id="212" name="Brake_Unit2.Wheel_Node_Controller.VFailure2" originType="Internal"/>
+      <failures Id="213" name="Value-Brake_Unit2.Wheel_Node_Controller.Out2" originType="Output" failureClass="Value"/>
+      <failures Id="214" name="Value-Brake_Unit3.Add.Braking" originType="Internal" failureClass="Value"/>
+      <failures Id="215" name="Brake_Unit3.EMB.VFailure1" originType="Internal"/>
+      <failures Id="216" name="Brake_Unit3.EMB_Power_Converter.VFailure1" originType="Internal"/>
+      <failures Id="217" name="Brake_Unit3.Wheel_Node_Controller.VFailure1" originType="Internal"/>
+      <failures Id="218" name="Value-Brake_Unit3.Wheel_Node_Controller.Out1" originType="Output" failureClass="Value"/>
+      <failures Id="219" name="Value-Brake_Unit3.In2" failureClass="Value"/>
+      <failures Id="220" name="Brake_Unit3.IWM.VFailure1" originType="Internal"/>
+      <failures Id="221" name="Brake_Unit3.IWM_Power_Converter.VFailure1" originType="Internal"/>
+      <failures Id="222" name="Brake_Unit3.Wheel_Node_Controller.VFailure2" originType="Internal"/>
+      <failures Id="223" name="Value-Brake_Unit3.Wheel_Node_Controller.Out2" originType="Output" failureClass="Value"/>
+      <failures Id="224" name="Value-Brake_Unit4.Add.Braking" originType="Internal" failureClass="Value"/>
+      <failures Id="225" name="Brake_Unit4.EMB.VFailure1" originType="Internal"/>
+      <failures Id="226" name="Brake_Unit4.EMB_Power_Converter.VFailure1" originType="Internal"/>
+      <failures Id="227" name="Brake_Unit4.Wheel_Node_Controller.VFailure1" originType="Internal"/>
+      <failures Id="228" name="Value-Brake_Unit4.Wheel_Node_Controller.Out1" originType="Output" failureClass="Value"/>
+      <failures Id="229" name="Value-Brake_Unit4.In2" failureClass="Value"/>
+      <failures Id="230" name="Brake_Unit4.IWM.VFailure1" originType="Internal"/>
+      <failures Id="231" name="Brake_Unit4.IWM_Power_Converter.VFailure1" originType="Internal"/>
+      <failures Id="232" name="Brake_Unit4.Wheel_Node_Controller.VFailure2" originType="Internal"/>
+      <failures Id="233" name="Value-Brake_Unit4.Wheel_Node_Controller.Out2" originType="Output" failureClass="Value"/>
+      <causes xsi:type="failureLogic_:Gate" Id="72" name="Value_Braking" description="And1736 (TOP-EVENT)" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.0" gateType="AND" causes="//@odeProductPackages.0/@failureModels.5/@causes.1 //@odeProductPackages.0/@failureModels.5/@causes.19 //@odeProductPackages.0/@failureModels.5/@causes.29 //@odeProductPackages.0/@failureModels.5/@causes.39">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="73" name="Value-Brake_Unit1.Add.Braking" description="Or17" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.1" causes="//@odeProductPackages.0/@failureModels.5/@causes.2 //@odeProductPackages.0/@failureModels.5/@causes.3 //@odeProductPackages.0/@failureModels.5/@causes.4 //@odeProductPackages.0/@failureModels.5/@causes.5 //@odeProductPackages.0/@failureModels.5/@causes.6 //@odeProductPackages.0/@failureModels.5/@causes.13 //@odeProductPackages.0/@failureModels.5/@causes.12 //@odeProductPackages.0/@failureModels.5/@causes.11 //@odeProductPackages.0/@failureModels.5/@causes.14 //@odeProductPackages.0/@failureModels.5/@causes.15 //@odeProductPackages.0/@failureModels.5/@causes.16 //@odeProductPackages.0/@failureModels.5/@causes.17 //@odeProductPackages.0/@failureModels.5/@causes.18">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="74" name="Brake_Unit1.EMB.VFailure1" description="BasicEvent22" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.2">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="75" name="Brake_Unit1.EMB_Power_Converter.VFailure1" description="BasicEvent35" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.3">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="76" name="Auxiliary_Battery.VFailure1" description="BasicEvent2" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.4">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="77" name="Brake_Unit1.Wheel_Node_Controller.VFailure1" description="BasicEvent103" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.5">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="78" name="Value-Brake_Unit1.Wheel_Node_Controller.Out1" description="And128" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.6" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.7 //@odeProductPackages.0/@failureModels.5/@causes.7">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="79" name="Value-Brake_Unit1.In2" description="Or1749" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.7" causes="//@odeProductPackages.0/@failureModels.5/@causes.8 //@odeProductPackages.0/@failureModels.5/@causes.12 //@odeProductPackages.0/@failureModels.5/@causes.11">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="80" name="Value-Communication_Bus2.Out1" description="And651" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.8" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.10 //@odeProductPackages.0/@failureModels.5/@causes.9">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="81" name="Value-Electronic_Pedal.Out2" description="Or1748" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.9" causes="//@odeProductPackages.0/@failureModels.5/@causes.10 //@odeProductPackages.0/@failureModels.5/@causes.11">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="82" name="Electronic_Pedal.VFailure2" description="BasicEvent662" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.10">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="QM"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="83" name="Mechanical_Pedal.VFailure1" description="BasicEvent684" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.11">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="84" name="Electronic_Pedal.VFailure1" description="BasicEvent661" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.12">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="85" name="Value-Communication_Bus1.Out1" description="And627" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.13" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.10 //@odeProductPackages.0/@failureModels.5/@causes.9">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="86" name="Brake_Unit1.IWM.VFailure1" description="BasicEvent54" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.14">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="87" name="Powertrain_Battery.VFailure1" description="BasicEvent690" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.15">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="88" name="Brake_Unit1.IWM_Power_Converter.VFailure1" description="BasicEvent77" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.16">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="89" name="Brake_Unit1.Wheel_Node_Controller.VFailure2" description="BasicEvent104" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.17">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="B"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="90" name="Value-Brake_Unit1.Wheel_Node_Controller.Out2" description="And139" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.18" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.7 //@odeProductPackages.0/@failureModels.5/@causes.7">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="91" name="Value-Brake_Unit2.Add.Braking" description="Or168" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.19" causes="//@odeProductPackages.0/@failureModels.5/@causes.20 //@odeProductPackages.0/@failureModels.5/@causes.21 //@odeProductPackages.0/@failureModels.5/@causes.4 //@odeProductPackages.0/@failureModels.5/@causes.22 //@odeProductPackages.0/@failureModels.5/@causes.23 //@odeProductPackages.0/@failureModels.5/@causes.13 //@odeProductPackages.0/@failureModels.5/@causes.12 //@odeProductPackages.0/@failureModels.5/@causes.11 //@odeProductPackages.0/@failureModels.5/@causes.25 //@odeProductPackages.0/@failureModels.5/@causes.15 //@odeProductPackages.0/@failureModels.5/@causes.26 //@odeProductPackages.0/@failureModels.5/@causes.27 //@odeProductPackages.0/@failureModels.5/@causes.28">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="92" name="Brake_Unit2.EMB.VFailure1" description="BasicEvent173" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.20">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="93" name="Brake_Unit2.EMB_Power_Converter.VFailure1" description="BasicEvent186" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.21">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="A"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="94" name="Brake_Unit2.Wheel_Node_Controller.VFailure1" description="BasicEvent254" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.22">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="C"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="95" name="Value-Brake_Unit2.Wheel_Node_Controller.Out1" description="And279" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.23" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.29 //@odeProductPackages.0/@failureModels.5/@causes.24">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="96" name="Value-Brake_Unit2.In2" description="Or1762" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.24" causes="//@odeProductPackages.0/@failureModels.5/@causes.8 //@odeProductPackages.0/@failureModels.5/@causes.12 //@odeProductPackages.0/@failureModels.5/@causes.11">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="97" name="Brake_Unit2.IWM.VFailure1" description="BasicEvent205" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.25">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="B"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="98" name="Brake_Unit2.IWM_Power_Converter.VFailure1" description="BasicEvent228" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.26">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="B"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="99" name="Brake_Unit2.Wheel_Node_Controller.VFailure2" description="BasicEvent255" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.27">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="C"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="100" name="Value-Brake_Unit2.Wheel_Node_Controller.Out2" description="And290" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.28" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.29 //@odeProductPackages.0/@failureModels.5/@causes.24">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="101" name="Value-Brake_Unit3.Add.Braking" description="Or319" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.29" causes="//@odeProductPackages.0/@failureModels.5/@causes.30 //@odeProductPackages.0/@failureModels.5/@causes.31 //@odeProductPackages.0/@failureModels.5/@causes.4 //@odeProductPackages.0/@failureModels.5/@causes.32 //@odeProductPackages.0/@failureModels.5/@causes.33 //@odeProductPackages.0/@failureModels.5/@causes.13 //@odeProductPackages.0/@failureModels.5/@causes.12 //@odeProductPackages.0/@failureModels.5/@causes.11 //@odeProductPackages.0/@failureModels.5/@causes.35 //@odeProductPackages.0/@failureModels.5/@causes.15 //@odeProductPackages.0/@failureModels.5/@causes.36 //@odeProductPackages.0/@failureModels.5/@causes.37 //@odeProductPackages.0/@failureModels.5/@causes.38">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="102" name="Brake_Unit3.EMB.VFailure1" description="BasicEvent324" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.30"/>
+      <causes Id="103" name="Brake_Unit3.EMB_Power_Converter.VFailure1" description="BasicEvent337" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.31"/>
+      <causes Id="104" name="Brake_Unit3.Wheel_Node_Controller.VFailure1" description="BasicEvent405" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.32"/>
+      <causes xsi:type="failureLogic_:Gate" Id="105" name="Value-Brake_Unit3.Wheel_Node_Controller.Out1" description="And430" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.33" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.41 //@odeProductPackages.0/@failureModels.5/@causes.34">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="106" name="Value-Brake_Unit3.In2" description="Or1772" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.34" causes="//@odeProductPackages.0/@failureModels.5/@causes.8 //@odeProductPackages.0/@failureModels.5/@causes.12 //@odeProductPackages.0/@failureModels.5/@causes.11">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="107" name="Brake_Unit3.IWM.VFailure1" description="BasicEvent356" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.35"/>
+      <causes Id="108" name="Brake_Unit3.IWM_Power_Converter.VFailure1" description="BasicEvent379" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.36"/>
+      <causes Id="109" name="Brake_Unit3.Wheel_Node_Controller.VFailure2" description="BasicEvent406" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.37"/>
+      <causes xsi:type="failureLogic_:Gate" Id="110" name="Value-Brake_Unit3.Wheel_Node_Controller.Out2" description="And441" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.38" gateType="AND" causes="//@odeProductPackages.0/@failureModels.0/@causes.41 //@odeProductPackages.0/@failureModels.5/@causes.34">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="111" name="Value-Brake_Unit4.Add.Braking" description="Or470" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.39" causes="//@odeProductPackages.0/@failureModels.5/@causes.40 //@odeProductPackages.0/@failureModels.5/@causes.41 //@odeProductPackages.0/@failureModels.5/@causes.4 //@odeProductPackages.0/@failureModels.5/@causes.42 //@odeProductPackages.0/@failureModels.5/@causes.43 //@odeProductPackages.0/@failureModels.5/@causes.13 //@odeProductPackages.0/@failureModels.5/@causes.12 //@odeProductPackages.0/@failureModels.5/@causes.11 //@odeProductPackages.0/@failureModels.5/@causes.45 //@odeProductPackages.0/@failureModels.5/@causes.15 //@odeProductPackages.0/@failureModels.5/@causes.46 //@odeProductPackages.0/@failureModels.5/@causes.47 //@odeProductPackages.0/@failureModels.5/@causes.48">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="112" name="Brake_Unit4.EMB.VFailure1" description="BasicEvent475" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.40"/>
+      <causes Id="113" name="Brake_Unit4.EMB_Power_Converter.VFailure1" description="BasicEvent488" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.41"/>
+      <causes Id="114" name="Brake_Unit4.Wheel_Node_Controller.VFailure1" description="BasicEvent556" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.42"/>
+      <causes xsi:type="failureLogic_:Gate" Id="115" name="Value-Brake_Unit4.Wheel_Node_Controller.Out1" description="And581" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.43" gateType="AND" causes="//@odeProductPackages.0/@failureModels.1/@causes.6 //@odeProductPackages.0/@failureModels.5/@causes.44">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes xsi:type="failureLogic_:Gate" Id="116" name="Value-Brake_Unit4.In2" description="Or1782" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.44" causes="//@odeProductPackages.0/@failureModels.5/@causes.8 //@odeProductPackages.0/@failureModels.5/@causes.12 //@odeProductPackages.0/@failureModels.5/@causes.11">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+      <causes Id="117" name="Brake_Unit4.IWM.VFailure1" description="BasicEvent507" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.45"/>
+      <causes Id="118" name="Brake_Unit4.IWM_Power_Converter.VFailure1" description="BasicEvent530" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.46"/>
+      <causes Id="119" name="Brake_Unit4.Wheel_Node_Controller.VFailure2" description="BasicEvent557" causeType="BasicEvent" failure="//@odeProductPackages.0/@failureModels.5/@failures.47"/>
+      <causes xsi:type="failureLogic_:Gate" Id="120" name="Value-Brake_Unit4.Wheel_Node_Controller.Out2" description="And592" causeType="Gate" failure="//@odeProductPackages.0/@failureModels.5/@failures.48" gateType="AND" causes="//@odeProductPackages.0/@failureModels.1/@causes.6 //@odeProductPackages.0/@failureModels.5/@causes.44">
+        <keyValueMaps key="sil">
+          <values tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
+    </failureModels>
+  </odeProductPackages>
+</integration_:DDIPackage>
