@@ -1,12 +1,3 @@
-/*
-HSFMType Mapping  = ExternalReference!FaultTree.all.selectOne(s|s.name="$originValue").causes.select(c|c.description.contains("TOP-EVENT")).collect(s|s.name)
-HSFMType Children = ExternalReference!Gate.all.selectOne(s|s.name="$parentValue") <> null ? ExternalReference!Gate.all.selectOne(s|s.name="$parentValue").causes.select(a|a.causeType.name = 'Gate').collect(c|c.name) : Sequence{}
-
-HSFMEvent Mapping = ExternalReference!Gate.all.selectOne(s|s.name="$parentValue") <> null ? ExternalReference!Gate.all.selectOne(s|s.name="$parentValue").causes.select(a|a.causeType.name <> 'Gate').collect(c|c.name) : Sequence{}
-*/
-var teste = null ?: 'AAAAAA';
-teste.println();
-
 var hsfmTypeMapping = ExternalReference!Gate.all.select(c|c.description.contains("TOP-EVENT")).collect(s|s.name);
 var parentValue = hsfmTypeMapping.first();
 ('hsfmTypeMapping: ' + hsfmTypeMapping).println();
@@ -23,6 +14,3 @@ for(v in values) {
 	var hsfmEventMapping = ExternalReference!Gate.all.selectOne(s|s.name=originValue).causes.select(a|a.causeType.name <> 'Gate').collect(c|c.name);
 	('hsfmEventMapping: ' + v + ' -> ' + hsfmEventMapping).println();
 }
-
-
-// ?: Sequence {}
