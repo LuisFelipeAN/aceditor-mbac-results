@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sacm2:AssuranceCasePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sacm2="http://SACM_ACEditor/sacm/2.1" gid="Assurance Case Package.0">
+  <name lang="English" content="Assurance Case Package"/>
+  <description gid="null.15">
+    <content/>
+  </description>
+  <terminologyPackage gid="TerminologyPackage.0">
+    <name lang="English" content="TerminologyPackage"/>
+    <description gid="null.5">
+      <content/>
+    </description>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.0" value="Power failure" externalReference="/Exemplos/untitled.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.1" value="Relay connect fail" externalReference="/Exemplos/untitled.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="is.0" value="is">
+      <name lang="English" content="is"/>
+      <description gid="Descis.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="absent.0" value="absent">
+      <name lang="English" content="absent"/>
+      <description gid="Descabsent.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isabsent.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.2 //@terminologyPackage.0/@terminologyElement.3">
+      <name lang="English" content="isabsent"/>
+      <description gid="Descisabsent.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent.0" value="Miniature circuit fail" externalReference="/Exemplos/untitled.model">
+      <name lang="English" content="HSFMEvent"/>
+      <description gid="DescHSFMEvent.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent.1" value="Diode fail" externalReference="/Exemplos/untitled.model">
+      <name lang="English" content="HSFMEvent"/>
+      <description gid="DescHSFMEvent.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent.2" value="Over heat" externalReference="/Exemplos/untitled.model">
+      <name lang="English" content="HSFMEvent"/>
+      <description gid="DescHSFMEvent.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="acceptable.0" value="acceptable">
+      <name lang="English" content="acceptable"/>
+      <description gid="Descacceptable.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isacceptable.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.2 //@terminologyPackage.0/@terminologyElement.8">
+      <name lang="English" content="isacceptable"/>
+      <description gid="Descisacceptable.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.4">
+      <name lang="English" content="0"/>
+      <description gid="null.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp0.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.4">
+      <name lang="English" content="0"/>
+      <description gid="null.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp1.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.5 //@terminologyPackage.0/@terminologyElement.9">
+      <name lang="English" content="1"/>
+      <description gid="null.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp1.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.6 //@terminologyPackage.0/@terminologyElement.9">
+      <name lang="English" content="1"/>
+      <description gid="null.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp1.2" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.7 //@terminologyPackage.0/@terminologyElement.9">
+      <name lang="English" content="1"/>
+      <description gid="null.4">
+        <content/>
+      </description>
+    </terminologyElement>
+  </terminologyPackage>
+  <argumentPackage gid="ArgPack.0">
+    <description gid="null.13">
+      <content>
+        <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.0"/>
+      </content>
+    </description>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim 1.0">
+      <name lang="English" content="Claim 1"/>
+      <description gid="null.6">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.10"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim 2.0">
+      <name lang="English" content="Claim 2"/>
+      <description gid="null.8">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.12"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim 3.0" isCitation="true" citedElement="//@argumentPackage.1/@argumentationElement.0" assertionDeclaration="asCited">
+      <name lang="English" content="Claim 3"/>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:AssertedInference" gid="assertedInference.1" source="//@argumentPackage.0/@argumentationElement.1 //@argumentPackage.0/@argumentationElement.2" target="//@argumentPackage.0/@argumentationElement.0">
+      <description gid="null.12">
+        <content/>
+      </description>
+    </argumentationElement>
+  </argumentPackage>
+  <argumentPackage gid="ArgPack.1">
+    <description gid="null.14">
+      <content>
+        <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.1"/>
+      </content>
+    </description>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim 1.1">
+      <name lang="English" content="Claim 1"/>
+      <description gid="null.7">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.11"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim 2.1">
+      <name lang="English" content="Claim 2"/>
+      <description gid="null.9">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.13"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim 2.2">
+      <name lang="English" content="Claim 2"/>
+      <description gid="null.10">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.14"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:AssertedInference" gid="assertedInference.0" source="//@argumentPackage.1/@argumentationElement.1 //@argumentPackage.1/@argumentationElement.2" target="//@argumentPackage.1/@argumentationElement.0">
+      <description gid="null.11">
+        <content/>
+      </description>
+    </argumentationElement>
+  </argumentPackage>
+</sacm2:AssuranceCasePackage>

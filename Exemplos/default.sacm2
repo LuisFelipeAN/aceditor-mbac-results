@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sacm2:AssuranceCasePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sacm2="http://SACM_ACEditor/sacm/2.1">
+  <terminologyPackage gid="TerminologyPackage">
+    <description>
+      <content/>
+    </description>
+    <terminologyElement xsi:type="sacm2:Term" gid="systemX" isAbstract="true" value="systemX">
+      <name lang="English" content="systemX"/>
+      <description gid="DescsystemX">
+        <content/>
+      </description>
+      <implementationConstraint gid="systemXMapping" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="is" value="is">
+      <name lang="English" content="is"/>
+      <description gid="Descis">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="acceptably" value="acceptably">
+      <name lang="English" content="acceptably"/>
+      <description gid="Descacceptably">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="safe" value="safe">
+      <name lang="English" content="safe"/>
+      <description gid="Descsafe">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="to" value="to">
+      <name lang="English" content="to"/>
+      <description gid="Descto">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="operate" value="operate">
+      <name lang="English" content="operate"/>
+      <description gid="Descoperate">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="in" value="in">
+      <name lang="English" content="in"/>
+      <description gid="Descin">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="the" value="the">
+      <name lang="English" content="the"/>
+      <description gid="Descthe">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="specified" value="specified">
+      <name lang="English" content="specified"/>
+      <description gid="Descspecified">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="env" value="env">
+      <name lang="English" content="env"/>
+      <description gid="Descenv">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isacceptablysafetooperateinthespecifiedenv" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.2 //@terminologyPackage.0/@terminologyElement.3 //@terminologyPackage.0/@terminologyElement.4 //@terminologyPackage.0/@terminologyElement.5 //@terminologyPackage.0/@terminologyElement.6 //@terminologyPackage.0/@terminologyElement.7 //@terminologyPackage.0/@terminologyElement.8 //@terminologyPackage.0/@terminologyElement.9">
+      <name lang="English" content="isacceptablysafetooperateinthespecifiedenv"/>
+      <description gid="Descisacceptablysafetooperateinthespecifiedenv">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="." value=".">
+      <name lang="English" content="."/>
+      <description gid="Desc.">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Argument" value="Argument">
+      <name lang="English" content="Argument"/>
+      <description gid="DescArgument">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="over" value="over">
+      <name lang="English" content="over"/>
+      <description gid="Descover">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="risk" value="risk">
+      <name lang="English" content="risk"/>
+      <description gid="Descrisk">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="posed" value="posed">
+      <name lang="English" content="posed"/>
+      <description gid="Descposed">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="by" value="by">
+      <name lang="English" content="by"/>
+      <description gid="Descby">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="identified" value="identified">
+      <name lang="English" content="identified"/>
+      <description gid="Descidentified">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazads" value="hazads">
+      <name lang="English" content="hazads"/>
+      <description gid="Deschazads">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Argumentovertheriskposedbytheidentifiedhazads" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.12 //@terminologyPackage.0/@terminologyElement.13 //@terminologyPackage.0/@terminologyElement.7 //@terminologyPackage.0/@terminologyElement.14 //@terminologyPackage.0/@terminologyElement.15 //@terminologyPackage.0/@terminologyElement.16 //@terminologyPackage.0/@terminologyElement.7 //@terminologyPackage.0/@terminologyElement.17 //@terminologyPackage.0/@terminologyElement.18">
+      <name lang="English" content="Argumentovertheriskposedbytheidentifiedhazads"/>
+      <description gid="DescArgumentovertheriskposedbytheidentifiedhazads">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Risk" value="Risk">
+      <name lang="English" content="Risk"/>
+      <description gid="DescRisk">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Riskposedby" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.20 //@terminologyPackage.0/@terminologyElement.15 //@terminologyPackage.0/@terminologyElement.16">
+      <name lang="English" content="Riskposedby"/>
+      <description gid="DescRiskposedby">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazard" isAbstract="true" value="hazard" origin="//@terminologyPackage.0/@terminologyElement.0">
+      <name lang="English" content="hazard"/>
+      <description gid="Deschazard">
+        <content/>
+      </description>
+      <implementationConstraint gid="hazardMultiplicity" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+      <implementationConstraint gid="hazardMapping" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="acceptable" value="acceptable">
+      <name lang="English" content="acceptable"/>
+      <description gid="Descacceptable">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isacceptable" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.23">
+      <name lang="English" content="isacceptable"/>
+      <description gid="Descisacceptable">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="safetyStandard" isAbstract="true" value="safetyStandard" origin="//@terminologyPackage.0/@terminologyElement.0">
+      <name lang="English" content="safetyStandard"/>
+      <description gid="DescsafetyStandard">
+        <content/>
+      </description>
+      <implementationConstraint gid="SafetyStandardMapping" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="operationalEnvironment" isAbstract="true" value="operationalEnvironment" origin="//@terminologyPackage.0/@terminologyElement.0">
+      <name lang="English" content="operationalEnvironment"/>
+      <description gid="DescoperationalEnvironment">
+        <content/>
+      </description>
+      <implementationConstraint gid="opEnvMapping" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="systemDefinition" isAbstract="true" value="systemDefinition" origin="//@terminologyPackage.0/@terminologyElement.0">
+      <name lang="English" content="systemDefinition"/>
+      <description gid="DescsystemDefinition">
+        <content/>
+      </description>
+      <implementationConstraint gid="sysDefMapping" type="Mapping">
+        <content>
+          <value lang="Mapping:EOL"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazards" value="hazards">
+      <name lang="English" content="hazards"/>
+      <description gid="Deschazards">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp0" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.10 //@terminologyPackage.0/@terminologyElement.11">
+      <name lang="English" content="0"/>
+      <description>
+        <content/>
+      </description>
+      <implementationConstraint gid="Exp0Multiplicity" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.19">
+      <name lang="English" content="1"/>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp2" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.21 //@terminologyPackage.0/@terminologyElement.22 //@terminologyPackage.0/@terminologyElement.24">
+      <name lang="English" content="2"/>
+      <description>
+        <content/>
+      </description>
+      <implementationConstraint gid="Exp2Multiplicity" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp3" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.25">
+      <name lang="English" content="3"/>
+      <description>
+        <content/>
+      </description>
+      <implementationConstraint gid="Exp3Multiplicity" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp4" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.26">
+      <name lang="English" content="4"/>
+      <description>
+        <content/>
+      </description>
+      <implementationConstraint gid="Exp4Multiplicity" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp5" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.27">
+      <name lang="English" content="5"/>
+      <description>
+        <content/>
+      </description>
+      <implementationConstraint gid="Exp5Multiplicity" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Exp6" isAbstract="true" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.17 //@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.28">
+      <name lang="English" content="6"/>
+      <description>
+        <content/>
+      </description>
+      <implementationConstraint gid="Exp6Multiplicity" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </terminologyElement>
+  </terminologyPackage>
+  <argumentPackage gid="HazardAvoidancePackage">
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim OperationalEnv" isAbstract="true" assertionDeclaration="axiomatic">
+      <description>
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.33"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim SafetyStandard" isAbstract="true" assertionDeclaration="axiomatic">
+      <description>
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.32"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim SysDef" isAbstract="true" assertionDeclaration="axiomatic">
+      <description>
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.34"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:Claim" gid="RiskHzdX" isCitation="true" isAbstract="true" citedElement="//@argumentPackage.1/@argumentationElement.0" assertionDeclaration="asCited">
+      <description>
+        <content/>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:ArtifactReference" gid="ArtRef IdentHazards" isAbstract="true">
+      <description>
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.35"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="sysHazardDecomposition">
+      <description>
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.30"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:AssertedInference" reasoning="//@argumentPackage.0/@argumentationElement.5" source="//@argumentPackage.0/@argumentationElement.3" target="//@argumentPackage.0/@argumentationElement.7"/>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim SysSafe" isAbstract="true">
+      <description>
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.29"/>
+        </content>
+      </description>
+    </argumentationElement>
+    <argumentationElement xsi:type="sacm2:AssertedContext" source="//@argumentPackage.0/@argumentationElement.0 //@argumentPackage.0/@argumentationElement.2" target="//@argumentPackage.0/@argumentationElement.7"/>
+    <argumentationElement xsi:type="sacm2:AssertedArtifactContext" source="//@argumentPackage.0/@argumentationElement.1" target="//@argumentPackage.0/@argumentationElement.7"/>
+    <argumentationElement xsi:type="sacm2:AssertedContext" source="//@argumentPackage.0/@argumentationElement.4" target="//@argumentPackage.0/@argumentationElement.5"/>
+  </argumentPackage>
+  <argumentPackage gid="RiskArgumentPattern">
+    <description>
+      <content/>
+    </description>
+    <argumentationElement xsi:type="sacm2:Claim" gid="Claim RiskHzdX" isAbstract="true">
+      <description>
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.31"/>
+        </content>
+      </description>
+      <implementationConstraint gid="riskHazardXMultiplicity" type="Multiplicity">
+        <content>
+          <value lang="Multiplicity:" content="Dummy"/>
+        </content>
+      </implementationConstraint>
+    </argumentationElement>
+  </argumentPackage>
+</sacm2:AssuranceCasePackage>
