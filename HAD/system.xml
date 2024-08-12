@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<systems>
+	<system name="HAD" sysDef="Definition of HAD" enviroment="high speed roads">
+		<standard name="ISO 26262">
+		</standard>
+		<subsystem name="camera right">
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="camera left">
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="longitudinal movement">
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="lateral movement">
+			<Port type="out" name="Out1"/>
+		</subsystem>
+		<subsystem name="vehicle computer">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+			<Port type="out" name="Out1"/>
+			<Port type="out" name="Out2"/>
+		</subsystem>
+		<subsystem name="powertrain">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+		</subsystem>
+		<subsystem name="steering">
+			<Port type="in" name="In1"/>
+			<Port type="in" name="In2"/>
+		</subsystem>
+		<hazard name="Hazarduos Movement" sil="4" within="HazardAnalisys" faulttree="FT_hazarduos movement">
+			<cause>wrong longitudinal movement AND wrong lateral movement</cause>
+			<component>longitudinal movement</component>
+			<component>lateral movement</component>
+		</hazard>
+	</system>
+</systems>

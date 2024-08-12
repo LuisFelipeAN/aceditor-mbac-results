@@ -1,0 +1,2655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sacm2:AssuranceCasePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sacm2="http://SACM_ACEditor/sacm/2.1" gid="Case Study Assurance Case.0">
+  <assuranceCasePackage gid="SystemACP.0">
+    <description gid="DescSystemACP.0">
+      <content>
+        <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.23"/>
+      </content>
+    </description>
+    <argumentPackage gid="HazardAvoidance.0">
+      <description gid="DescHazardAvoidance.0">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.0"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim SysSafe.0">
+        <description gid="DescClaimSysSafe.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.12"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim SafetyStandard.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaimSafetyStandard.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.18"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim OperationalEnv.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaimOperationalEvn.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.13"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim SysDef.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaimSysDef.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.14"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="RiskHzdX.0" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.0" assertionDeclaration="asCited"/>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="RelationshipHazardDecomposition.0" reasoning="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.6" source="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.4" target="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.0">
+        <description gid="DescRelationshipHazardDecomposition.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="sysHazardDecomposition.0">
+        <description gid="DescSystemHazardDecoposition.0">
+          <content>
+            <value lang="English" content="Argument over the risk posed by the identified hazards"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="RelationshipEnvAndSysDef.0" source="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.0">
+        <description gid="DescRelationshipEnvAndSysDef.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="RelationshipIdentHzd.0" source="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.10" target="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.6">
+        <description gid="DescRelationshipIdentHzd.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafetyStandard.0" source="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.0/@argumentationElement.0">
+        <description gid="descRelationshipSafetyStandard.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArtifactReference" gid="ArtRef IdentHzds.0">
+        <description gid="DescArtRef IdentHzds.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.17"/>
+          </content>
+        </description>
+      </argumentationElement>
+    </argumentPackage>
+    <argumentPackage gid="RiskArgument.0">
+      <description gid="DescRiskArgumentPackage.0">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.28"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RiskHazard.0">
+        <description gid="DescClaimRiskHazard.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.31"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HzdSafeReq.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HzdSafeReq.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.32"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim FailureCond.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaim FailureCond.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.33"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim CompConfig.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaim CompConfig.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.85"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim CausalAnalysis.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaim CausalAnalysis.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.38"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverMtgContrFailures.0">
+        <description gid="DescArgOverMtgContrFailures.0">
+          <content>
+            <value lang="English" content="Argument over the mitigation of contributing failure modes of components"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="cideAbsHSFM.0" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0" assertionDeclaration="asCited"/>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHzdAndHSFM.0" reasoning="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.5" source="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.6" target="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.0"/>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipHzdComponentsAndCausalAnalysis.0" source="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.4 //@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.5">
+        <description gid="DescrelationshipHzdComponentsAndCausalAnalysis.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipHzdSilAndCondition.0" source="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.1/@argumentationElement.0">
+        <description gid="DescrelationshipHzdSilAndCondition.0">
+          <content/>
+        </description>
+      </argumentationElement>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.0">
+      <description gid="DescAbsHSFM.0">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.44"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.0">
+        <description gid="DescClaim AbsHSFMType.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.72"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.102"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.0">
+        <description gid="DescClaim ContribSWFunc.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.125"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.44"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0">
+        <description gid="DescFailureMerc.0">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.0" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.138"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.0">
+        <description gid="DescClaim AbsTypeSecondary.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.175"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.0" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.157"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.4" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.4">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.4" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.4">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0">
+        <description gid="DescArgOverSWFuncCauses.0">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.4" reasoning="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.4">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.3" reasoning="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.10" source="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.14 //@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.15" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.3">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0" target="//@assuranceCasePackage.0/@argumentPackage.2/@argumentationElement.4">
+        <description gid="null.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.0" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.0" assertionDeclaration="asCited"/>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.4" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.1">
+      <description gid="DescAbsHSFM.1">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.45"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.1">
+        <description gid="DescClaim AbsHSFMType.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.73"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.1" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.103"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.1">
+        <description gid="DescClaim ContribSWFunc.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.126"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.1" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.45"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.0">
+        <description gid="DescFailureMerc.0.0">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.1" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.139"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.1">
+        <description gid="DescClaim AbsTypeSecondary.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.176"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.1" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.158"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.10" source="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.10">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.10" source="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.10">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.0">
+        <description gid="DescArgOverSWFuncCauses.0.0">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.10" reasoning="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.10">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.2" reasoning="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.10" source="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.14" target="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.2">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.0" target="//@assuranceCasePackage.0/@argumentPackage.3/@argumentationElement.4">
+        <description gid="null.0.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.1" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.2">
+      <description gid="DescAbsHSFM.2">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.46"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.2">
+        <description gid="DescClaim AbsHSFMType.2">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.74"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.2" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.2">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.104"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.2">
+        <description gid="DescClaim ContribSWFunc.2">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.127"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.2" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.2">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.46"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.1">
+        <description gid="DescFailureMerc.0.1">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.2" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.2">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.140"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.2">
+        <description gid="DescClaim AbsTypeSecondary.2">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.177"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.2" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.2">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.159"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.3" source="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.3">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.3" source="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.3">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.1">
+        <description gid="DescArgOverSWFuncCauses.0.1">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.3" reasoning="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.3">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.5" reasoning="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.10" source="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.14" target="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.5">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.1" target="//@assuranceCasePackage.0/@argumentPackage.4/@argumentationElement.4">
+        <description gid="null.0.1">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.2" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.3">
+      <description gid="DescAbsHSFM.3">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.47"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.3">
+        <description gid="DescClaim AbsHSFMType.3">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.75"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.3" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.3">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.105"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.3">
+        <description gid="DescClaim ContribSWFunc.3">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.128"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.3" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.3">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.47"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.2">
+        <description gid="DescFailureMerc.0.2">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.3" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.3">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.141"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.3">
+        <description gid="DescClaim AbsTypeSecondary.3">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.178"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.3" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.3">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.160"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.9" source="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.9">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.9" source="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.9">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.2">
+        <description gid="DescArgOverSWFuncCauses.0.2">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.9" reasoning="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.9">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.4" reasoning="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.10" source="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.14" target="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.4">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.2" target="//@assuranceCasePackage.0/@argumentPackage.5/@argumentationElement.4">
+        <description gid="null.0.2">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.3" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.4">
+      <description gid="DescAbsHSFM.4">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.48"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.4">
+        <description gid="DescClaim AbsHSFMType.4">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.76"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim CauseHSFMType.0">
+        <description gid="DescClaim CauseHSFMType.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.96"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.4" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.4">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.106"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.4">
+        <description gid="DescClaim ContribSWFunc.4">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.129"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.4" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.4">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.48"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AllCauses.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaim AllCauses.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.121"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.3">
+        <description gid="DescFailureMerc.0.3">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.4" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.4">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.142"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.4">
+        <description gid="DescClaim AbsTypeSecondary.4">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.179"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.4" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.4">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.161"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFMAccept.0" assertionDeclaration="needsSupport">
+        <description gid="DescClaim HSFMAccept.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.194"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.2" source="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.3 //@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.4" target="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.2">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.2" source="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.2">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.3">
+        <description gid="DescArgOverSWFuncCauses.0.3">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.2" reasoning="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.6" source="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.7 //@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.8 //@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.9" target="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.2">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.8" reasoning="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.13" source="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.10" target="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.8">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.8">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.3" source="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.5" target="//@assuranceCasePackage.0/@argumentPackage.6/@argumentationElement.6">
+        <description gid="null.0.3">
+          <content/>
+        </description>
+      </argumentationElement>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.5">
+      <description gid="DescAbsHSFM.5">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.49"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.5">
+        <description gid="DescClaim AbsHSFMType.5">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.77"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.5" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.5">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.107"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.5">
+        <description gid="DescClaim ContribSWFunc.5">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.130"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.5" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.5">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.49"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.4">
+        <description gid="DescFailureMerc.0.4">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.5" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.5">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.143"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.5">
+        <description gid="DescClaim AbsTypeSecondary.5">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.180"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.5" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.5">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.162"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.8" source="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.8">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.8" source="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.8">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.4">
+        <description gid="DescArgOverSWFuncCauses.0.4">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.8" reasoning="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.8">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.6" reasoning="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.10" source="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.14" target="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.6">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.4" target="//@assuranceCasePackage.0/@argumentPackage.7/@argumentationElement.4">
+        <description gid="null.0.4">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.5" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.6">
+      <description gid="DescAbsHSFM.6">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.50"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.6">
+        <description gid="DescClaim AbsHSFMType.6">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.78"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.6" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.6">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.108"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.6">
+        <description gid="DescClaim ContribSWFunc.6">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.131"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.6" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.6">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.50"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.5">
+        <description gid="DescFailureMerc.0.5">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.6" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.6">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.144"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.6">
+        <description gid="DescClaim AbsTypeSecondary.6">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.181"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.6" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.6">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.163"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.1" source="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.1">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.1" source="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.1">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.5">
+        <description gid="DescArgOverSWFuncCauses.0.5">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.1" reasoning="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.1">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.9" reasoning="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.10" source="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.14" target="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.9">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.5" target="//@assuranceCasePackage.0/@argumentPackage.8/@argumentationElement.4">
+        <description gid="null.0.5">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.6" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.7">
+      <description gid="DescAbsHSFM.7">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.51"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.7">
+        <description gid="DescClaim AbsHSFMType.7">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.79"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.7" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.7">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.109"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.7">
+        <description gid="DescClaim ContribSWFunc.7">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.132"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.7" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.7">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.51"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.6">
+        <description gid="DescFailureMerc.0.6">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.7" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.7">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.145"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.7">
+        <description gid="DescClaim AbsTypeSecondary.7">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.182"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.7" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.7">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.164"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.0" source="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.0" source="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.6">
+        <description gid="DescArgOverSWFuncCauses.0.6">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.0" reasoning="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.0" reasoning="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.10" source="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.14 //@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.15" target="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.0">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.6" target="//@assuranceCasePackage.0/@argumentPackage.9/@argumentationElement.4">
+        <description gid="null.0.6">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.7" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.0" assertionDeclaration="asCited"/>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.11" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.8">
+      <description gid="DescAbsHSFM.8">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.52"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.8">
+        <description gid="DescClaim AbsHSFMType.8">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.80"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim CauseHSFMType.0.0">
+        <description gid="DescClaim CauseHSFMType.0.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.96"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.8" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.8">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.110"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.8">
+        <description gid="DescClaim ContribSWFunc.8">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.133"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.8" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.8">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.52"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AllCauses.0.0" assertionDeclaration="axiomatic">
+        <description gid="DescClaim AllCauses.0.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.121"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.7">
+        <description gid="DescFailureMerc.0.7">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.8" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.8">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.146"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.8">
+        <description gid="DescClaim AbsTypeSecondary.8">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.183"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.8" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.8">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.165"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFMAccept.0.0" assertionDeclaration="needsSupport">
+        <description gid="DescClaim HSFMAccept.0.0">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.194"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.5" source="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.3 //@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.4" target="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.5">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.5" source="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.5">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.7">
+        <description gid="DescArgOverSWFuncCauses.0.7">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.5" reasoning="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.6" source="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.7 //@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.8 //@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.9" target="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.5">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.10" reasoning="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.13" source="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.17 //@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.10" target="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.8">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.10">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.7" source="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.5" target="//@assuranceCasePackage.0/@argumentPackage.10/@argumentationElement.6">
+        <description gid="null.0.7">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.8" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.9">
+      <description gid="DescAbsHSFM.9">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.53"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.9">
+        <description gid="DescClaim AbsHSFMType.9">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.81"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.9" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.9">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.111"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.9">
+        <description gid="DescClaim ContribSWFunc.9">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.134"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.9" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.9">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.53"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.8">
+        <description gid="DescFailureMerc.0.8">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.9" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.9">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.147"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.9">
+        <description gid="DescClaim AbsTypeSecondary.9">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.184"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.9" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.9">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.166"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFMAccept.1" assertionDeclaration="needsSupport">
+        <description gid="DescClaim HSFMAccept.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.195"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.11" source="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.11">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.11" source="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.11">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.8">
+        <description gid="DescArgOverSWFuncCauses.0.8">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.11" reasoning="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.11">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.7" reasoning="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.11" source="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.8 //@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.15" target="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.7">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.8" target="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.4">
+        <description gid="null.0.8">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.9" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.10">
+      <description gid="DescAbsHSFM.10">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.54"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.10">
+        <description gid="DescClaim AbsHSFMType.10">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.82"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.10" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.10">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.112"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.10">
+        <description gid="DescClaim ContribSWFunc.10">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.135"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.10" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.10">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.54"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.9">
+        <description gid="DescFailureMerc.0.9">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.10" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.10">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.148"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.10">
+        <description gid="DescClaim AbsTypeSecondary.10">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.185"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.10" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.10">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.167"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.6" source="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.6">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.6" source="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.6">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.9">
+        <description gid="DescArgOverSWFuncCauses.0.9">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.6" reasoning="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.6">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.11" reasoning="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.10" source="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.14" target="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.11">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.9" target="//@assuranceCasePackage.0/@argumentPackage.12/@argumentationElement.4">
+        <description gid="null.0.9">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.10" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.11">
+      <description gid="DescAbsHSFM.11">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.55"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.11">
+        <description gid="DescClaim AbsHSFMType.11">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.83"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.11" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.11">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.113"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.11">
+        <description gid="DescClaim ContribSWFunc.11">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.136"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.11" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.11">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.55"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.10">
+        <description gid="DescFailureMerc.0.10">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.11" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.11">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.149"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.11">
+        <description gid="DescClaim AbsTypeSecondary.11">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.186"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.11" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.11">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.168"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFMAccept.2" assertionDeclaration="needsSupport">
+        <description gid="DescClaim HSFMAccept.2">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.196"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.12" source="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.3" target="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.12">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.12" source="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.12">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.10">
+        <description gid="DescArgOverSWFuncCauses.0.10">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.12" reasoning="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.4" source="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.5 //@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.6 //@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.7" target="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.12">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.12" reasoning="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.11" source="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.8" target="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.6">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.12">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.10" target="//@assuranceCasePackage.0/@argumentPackage.13/@argumentationElement.4">
+        <description gid="null.0.10">
+          <content/>
+        </description>
+      </argumentationElement>
+    </argumentPackage>
+    <argumentPackage gid="AbsHSFM.12">
+      <description gid="DescAbsHSFM.12">
+        <content>
+          <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.53"/>
+        </content>
+      </description>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsHSFMType.12">
+        <description gid="DescClaim AbsHSFMType.12">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.84"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim CauseHSFMType.0.1">
+        <description gid="DescClaim CauseHSFMType.0.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.96"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContextCSF.12" assertionDeclaration="axiomatic">
+        <description gid="DescClaim ContextCSF.12">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.114"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim ContribSWFunc.12">
+        <description gid="DescClaim ContribSWFunc.12">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.137"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFM.12" assertionDeclaration="axiomatic">
+        <description gid="DescClaim HSFM.12">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.56"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AllCauses.0.1" assertionDeclaration="axiomatic">
+        <description gid="DescClaim AllCauses.0.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.121"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="FailureMerc.0.11">
+        <description gid="DescFailureMerc.0.11">
+          <content>
+            <value lang="English" content="Argument over failure mechanisms"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypePrimary.12" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypePrimary.12">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.150"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeSecondary.12">
+        <description gid="DescClaim AbsTypeSecondary.12">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.187"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim AbsTypeControl.12" assertionDeclaration="needsSupport">
+        <description gid="DescClaim AbsTypeControl.12">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.169"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim HSFMAccept.0.1" assertionDeclaration="needsSupport">
+        <description gid="DescClaim HSFMAccept.0.1">
+          <content>
+            <value xsi:type="sacm2:ExpressionLangString" lang="English" expression="//@terminologyPackage.0/@terminologyElement.194"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipSafeReqHSFMContrib.7" source="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.3 //@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.4" target="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.0">
+        <description gid="DesrelationshipSafeReqHSFMContrib.7">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipCauseHFMContextCFS.7" source="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.2 //@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.1" target="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.0">
+        <description gid="DescrelationshipCauseHFMContextCFS.7">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:ArgumentReasoning" gid="ArgOverSWFuncCauses.0.11">
+        <description gid="DescArgOverSWFuncCauses.0.11">
+          <content>
+            <value lang="English" content="Argument over other software functionality identified as cause of hazarduos software failure mode"/>
+          </content>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipPrimarySecondaryControl.7" reasoning="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.6" source="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.7 //@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.8 //@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.9" target="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.0">
+        <description gid="DescrelationshipPrimarySecondaryControl.7">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedInference" gid="relationshipHSFMAcceptABSHSFM.1" reasoning="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.13" source="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.10 //@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.17" target="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.8">
+        <description gid="DescrelationshipHSFMAcceptABSHSFM.1">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:AssertedContext" gid="relationshipAllCauses.0.11" source="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.5" target="//@assuranceCasePackage.0/@argumentPackage.14/@argumentationElement.6">
+        <description gid="null.0.11">
+          <content/>
+        </description>
+      </argumentationElement>
+      <argumentationElement xsi:type="sacm2:Claim" gid="Claim RAbsHSFM.8.0" isCitation="true" citedElement="//@assuranceCasePackage.0/@argumentPackage.11/@argumentationElement.0" assertionDeclaration="asCited"/>
+    </argumentPackage>
+  </assuranceCasePackage>
+  <terminologyPackage gid="TerminologyPackage.0">
+    <description gid="DesTerminologyPakage.0">
+      <content>
+        <value lang="English" content="This package contains all terms and expressions"/>
+      </content>
+    </description>
+    <terminologyElement xsi:type="sacm2:Term" gid="systemX.0" value="HAD" externalReference="/HAD/system.xml">
+      <name lang="English" content="systemX"/>
+      <description gid="DescsystemX.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="is.0" value="is">
+      <name lang="English" content="is"/>
+      <description gid="Descis.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="acceptably.0" value="acceptably">
+      <name lang="English" content="acceptably"/>
+      <description gid="Descacceptably.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="safe.0" value="safe">
+      <name lang="English" content="safe"/>
+      <description gid="Descsafe.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="to.0" value="to">
+      <name lang="English" content="to"/>
+      <description gid="Descto.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="operate.0" value="operate">
+      <name lang="English" content="operate"/>
+      <description gid="Descoperate.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="in.0" value="in">
+      <name lang="English" content="in"/>
+      <description gid="Descin.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="the.0" value="the">
+      <name lang="English" content="the"/>
+      <description gid="Descthe.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="specified.0" value="specified">
+      <name lang="English" content="specified"/>
+      <description gid="Descspecified.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="env.0" value="env">
+      <name lang="English" content="env"/>
+      <description gid="Descenv.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isacceptablysafetooperateinthespecifiedenv.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.2 //@terminologyPackage.0/@terminologyElement.3 //@terminologyPackage.0/@terminologyElement.4 //@terminologyPackage.0/@terminologyElement.5 //@terminologyPackage.0/@terminologyElement.6 //@terminologyPackage.0/@terminologyElement.7 //@terminologyPackage.0/@terminologyElement.8 //@terminologyPackage.0/@terminologyElement.9">
+      <name lang="English" content="isacceptablysafetooperateinthespecifiedenv"/>
+      <description gid="Descisacceptablysafetooperateinthespecifiedenv.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="..0" value=".">
+      <name lang="English" content="."/>
+      <description gid="Desc..0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expClaimSysSafe0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.10 //@terminologyPackage.0/@terminologyElement.11">
+      <name lang="English" content="0"/>
+      <description gid="descExpSysSafe.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="operationalEnvironment.0" value="high speed roads" externalReference="/HAD/system.xml">
+      <description gid="desOperationalEnviroment.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="systemDefinition.0" value="Definition of HAD" externalReference="/HAD/system.xml">
+      <description gid="descSystemDefinition.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Identified.0" value="Identified">
+      <name lang="English" content="Identified"/>
+      <description gid="DescIdentified.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazards.0" value="hazards">
+      <name lang="English" content="hazards"/>
+      <description gid="Deschazards.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expIdentHzds0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.15 //@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.16">
+      <name lang="English" content="expIdentHzds0"/>
+      <description gid="descExpIdentHzds.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="safetyStandard.0" value="ISO 26262" externalReference="/HAD/system.xml">
+      <description gid="descSafetyStandard.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="assurance.0" value="assurance">
+      <name lang="English" content="assurance"/>
+      <description gid="Descassurance.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="case.0" value="case">
+      <name lang="English" content="case"/>
+      <description gid="Desccase.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="package.0" value="package">
+      <name lang="English" content="package"/>
+      <description gid="Descpackage.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="assurancecasepackage.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.19 //@terminologyPackage.0/@terminologyElement.20 //@terminologyPackage.0/@terminologyElement.21">
+      <name lang="English" content="assurancecasepackage"/>
+      <description gid="Descassurancecasepackage.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expSystemACP0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.0 //@terminologyPackage.0/@terminologyElement.22">
+      <name lang="English" content="0"/>
+      <description gid="descExpSystemACP.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Risk.0" value="Risk">
+      <name lang="English" content="Risk"/>
+      <description gid="DescRisk.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="posed.0" value="posed">
+      <name lang="English" content="posed"/>
+      <description gid="Descposed.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="by.0" value="by">
+      <name lang="English" content="by"/>
+      <description gid="Descby.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Riskposedby.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.24 //@terminologyPackage.0/@terminologyElement.25 //@terminologyPackage.0/@terminologyElement.26">
+      <name lang="English" content="Riskposedby"/>
+      <description gid="DescRiskposedby.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazard.0" value="Hazarduos Movement" externalReference="/HAD/system.xml">
+      <name lang="English" content="hazard"/>
+      <description gid="Deschazard.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="acceptable.0" value="acceptable">
+      <name lang="English" content="acceptable"/>
+      <description gid="Descacceptable.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isacceptable.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.29">
+      <name lang="English" content="isacceptable"/>
+      <description gid="Descisacceptable.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expRiskHazard0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.27 //@terminologyPackage.0/@terminologyElement.28 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="expRiskHazard0"/>
+      <description gid="DescExpRiskHazard.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazardSil.0" value="4" externalReference="/HAD/system.xml">
+      <description gid="DescHazardSil.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="failureCondition.0" value="wrong longitudinal movement AND wrong lateral movement" externalReference="/HAD/system.xml">
+      <description gid="DescFailureCondition.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Causal.0" value="Causal">
+      <name lang="English" content="Causal"/>
+      <description gid="DescCausal.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="analysis.0" value="analysis">
+      <name lang="English" content="analysis"/>
+      <description gid="Descanalysis.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="for.0" value="for">
+      <name lang="English" content="for"/>
+      <description gid="Descfor.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Causalanalysisfor.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.34 //@terminologyPackage.0/@terminologyElement.35 //@terminologyPackage.0/@terminologyElement.36">
+      <name lang="English" content="Causalanalysisfor"/>
+      <description gid="DescCausalanalysisfor.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expCausalAnalysis0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.37 //@terminologyPackage.0/@terminologyElement.33">
+      <name lang="English" content="0"/>
+      <description gid="DescExpCausalAnalisys.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Hazarduos.0" value="Hazarduos">
+      <name lang="English" content="Hazarduos"/>
+      <description gid="DescHazarduos.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Software.0" value="Software">
+      <name lang="English" content="Software"/>
+      <description gid="DescSoftware.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Failure.0" value="Failure">
+      <name lang="English" content="Failure"/>
+      <description gid="DescFailure.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Mode.0" value="Mode">
+      <name lang="English" content="Mode"/>
+      <description gid="DescMode.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="HazarduosSoftwareFailureMode.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.39 //@terminologyPackage.0/@terminologyElement.40 //@terminologyPackage.0/@terminologyElement.41 //@terminologyPackage.0/@terminologyElement.42">
+      <name lang="English" content="HazarduosSoftwareFailureMode"/>
+      <description gid="DescHazarduosSoftwareFailureMode.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.0" value="Hazarduos Movement" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.1" value="wrong lateral movement" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.2" value="wrong lateral movement part steering" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.3" value="wrong steering angle part steering" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.4" value="wrong angle part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.4">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.5" value="wrong longitudinal movement" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.5">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.6" value="wrong wheel movement part powertrain" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.6">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.7" value="powertrain torque error part powertrain" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.7">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.8" value="too high torque part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.8">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.9" value="blury image part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.9">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.10" value="blury image right part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.10">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.11" value="blury image part camera right" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.11">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType.12" value="too low torque part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMType"/>
+      <description gid="DescHSFMType.12">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="absent.0" value="absent">
+      <name lang="English" content="absent"/>
+      <description gid="Descabsent.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isabsentin.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.57 //@terminologyPackage.0/@terminologyElement.6">
+      <name lang="English" content="isabsentin"/>
+      <description gid="Descisabsentin.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.0" value="Hazarduos Movement" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.1" value="wrong lateral movement" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.2" value="wrong lateral movement part steering" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.3" value="wrong steering angle part steering" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.4" value="wrong angle part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.4">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.5" value="wrong longitudinal movement" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.5">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.6" value="wrong wheel movement part powertrain" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.6">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.7" value="powertrain torque error part powertrain" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.7">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.8" value="too high torque part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.8">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.9" value="blury image part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.9">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.10" value="blury image right part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.10">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.11" value="blury image part camera right" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.11">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF.12" value="too low torque part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="CSF"/>
+      <description gid="DescCSF.12">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.44 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.45 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.2" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.46 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.3" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.47 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.4" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.48 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.4">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.5" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.49 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.5">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.6" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.50 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.6">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.7" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.51 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.7">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.8" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.52 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.8">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.9" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.53 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.9">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.10" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.54 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.10">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.11" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.55 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.11">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsHsfmType0.12" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.43 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.58 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsHsfmType0.12">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hzdComponents.0" value="longitudinal movement, lateral movement" externalReference="/HAD/system.xml">
+      <description gid="DescTermComponents.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Know.0" value="Know">
+      <name lang="English" content="Know"/>
+      <description gid="DescKnow.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="causes.0" value="causes">
+      <name lang="English" content="causes"/>
+      <description gid="Desccauses.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="of.0" value="of">
+      <name lang="English" content="of"/>
+      <description gid="Descof.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Knowcausesof.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.86 //@terminologyPackage.0/@terminologyElement.87 //@terminologyPackage.0/@terminologyElement.88">
+      <name lang="English" content="Knowcausesof"/>
+      <description gid="DescKnowcausesof.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="type.0" value="Value" externalReference="/HAD/ODE.model">
+      <name lang="English" content="type"/>
+      <description gid="Desctype.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="hazarduos.0" value="hazarduos">
+      <name lang="English" content="hazarduos"/>
+      <description gid="Deschazarduos.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="software.0" value="software">
+      <name lang="English" content="software"/>
+      <description gid="Descsoftware.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="failure.0" value="failure">
+      <name lang="English" content="failure"/>
+      <description gid="Descfailure.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="mode.0" value="mode">
+      <name lang="English" content="mode"/>
+      <description gid="Descmode.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="hazarduossoftwarefailuremode.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.91 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.93 //@terminologyPackage.0/@terminologyElement.94">
+      <name lang="English" content="hazarduossoftwarefailuremode"/>
+      <description gid="Deschazarduossoftwarefailuremode.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expCauseHSFMType0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.89 //@terminologyPackage.0/@terminologyElement.90 //@terminologyPackage.0/@terminologyElement.95">
+      <name lang="English" content="0"/>
+      <description gid="DescexpCauseHSFMType0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Within.0" value="Within">
+      <name lang="English" content="Within"/>
+      <description gid="DescWithin.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="context.0" value="context">
+      <name lang="English" content="context"/>
+      <description gid="Desccontext.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="contributory.0" value="contributory">
+      <name lang="English" content="contributory"/>
+      <description gid="Desccontributory.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="functionality.0" value="functionality">
+      <name lang="English" content="functionality"/>
+      <description gid="Descfunctionality.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Withinthecontextofcontributorysoftwarefunctionality.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.97 //@terminologyPackage.0/@terminologyElement.7 //@terminologyPackage.0/@terminologyElement.98 //@terminologyPackage.0/@terminologyElement.88 //@terminologyPackage.0/@terminologyElement.99 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100">
+      <name lang="English" content="Withinthecontextofcontributorysoftwarefunctionality"/>
+      <description gid="DescWithinthecontextofcontributorysoftwarefunctionality.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.59">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.60">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.2" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.61">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.3" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.62">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.4" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.63">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.4">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.5" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.64">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.5">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.6" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.65">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.6">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.7" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.66">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.7">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.8" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.67">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.8">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.9" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.68">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.9">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.10" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.69">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.10">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.11" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.70">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.11">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContextCFS0.12" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.101 //@terminologyPackage.0/@terminologyElement.71">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContextCFS0.12">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="Indentified.0" value="Indentified">
+      <name lang="English" content="Indentified"/>
+      <description gid="DescIndentified.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="mechanisms.0" value="mechanisms">
+      <name lang="English" content="mechanisms"/>
+      <description gid="Descmechanisms.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="describe.0" value="describe">
+      <name lang="English" content="describe"/>
+      <description gid="Descdescribe.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="all.0" value="all">
+      <name lang="English" content="all"/>
+      <description gid="Descall.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="know.0" value="know">
+      <name lang="English" content="know"/>
+      <description gid="Descknow.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Indentifiedfailuremechanismsdescribeallknowcausesof.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.115 //@terminologyPackage.0/@terminologyElement.93 //@terminologyPackage.0/@terminologyElement.116 //@terminologyPackage.0/@terminologyElement.117 //@terminologyPackage.0/@terminologyElement.118 //@terminologyPackage.0/@terminologyElement.119 //@terminologyPackage.0/@terminologyElement.87 //@terminologyPackage.0/@terminologyElement.88">
+      <name lang="English" content="Indentifiedfailuremechanismsdescribeallknowcausesof"/>
+      <description gid="DescIndentifiedfailuremechanismsdescribeallknowcausesof.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAllCauses0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.120 //@terminologyPackage.0/@terminologyElement.90 //@terminologyPackage.0/@terminologyElement.95">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAllCauses0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="which.0" value="which">
+      <name lang="English" content="which"/>
+      <description gid="Descwhich.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="contributes.0" value="contributes">
+      <name lang="English" content="contributes"/>
+      <description gid="Desccontributes.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Identifiedsoftwarefunctionalitywhichcontributestohazarduossoftwarefailure.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.15 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.100 //@terminologyPackage.0/@terminologyElement.122 //@terminologyPackage.0/@terminologyElement.123 //@terminologyPackage.0/@terminologyElement.4 //@terminologyPackage.0/@terminologyElement.91 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.93">
+      <name lang="English" content="Identifiedsoftwarefunctionalitywhichcontributestohazarduossoftwarefailure"/>
+      <description gid="DescIdentifiedsoftwarefunctionalitywhichcontributestohazarduossoftwarefailure.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.44">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.45">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.2" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.46">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.3" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.47">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.4" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.48">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.4">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.5" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.49">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.5">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.6" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.50">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.6">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.7" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.51">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.7">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.8" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.52">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.8">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.9" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.53">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.9">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.10" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.54">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.10">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.11" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.55">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.11">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expContribSWFunc0.12" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.124 //@terminologyPackage.0/@terminologyElement.56">
+      <name lang="English" content="0"/>
+      <description gid="DescexpContribSWFunc0.12">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.44 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.45 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.2" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.46 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.3" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.47 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.4" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.48 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.4">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.5" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.49 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.5">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.6" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.50 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.6">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.7" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.51 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.7">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.8" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.52 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.8">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.9" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.53 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.9">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.10" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.54 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.10">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.11" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.55 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.11">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypePrimary0.12" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.30">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypePrimary0.12">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="scheduled.0" value="scheduled">
+      <name lang="English" content="scheduled"/>
+      <description gid="Descscheduled.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="and.0" value="and">
+      <name lang="English" content="and"/>
+      <description gid="Descand.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="allowed.0" value="allowed">
+      <name lang="English" content="allowed"/>
+      <description gid="Descallowed.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="run.0" value="run">
+      <name lang="English" content="run"/>
+      <description gid="Descrun.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="once.0" value="once">
+      <name lang="English" content="once"/>
+      <description gid="Desconce.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="isscheduledandallowedtorunonce.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.1 //@terminologyPackage.0/@terminologyElement.151 //@terminologyPackage.0/@terminologyElement.152 //@terminologyPackage.0/@terminologyElement.153 //@terminologyPackage.0/@terminologyElement.4 //@terminologyPackage.0/@terminologyElement.154 //@terminologyPackage.0/@terminologyElement.155">
+      <name lang="English" content="isscheduledandallowedtorunonce"/>
+      <description gid="Descisscheduledandallowedtorunonce.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.59 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.60 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.2" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.61 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.3" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.62 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.4" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.63 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.4">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.5" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.64 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.5">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.6" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.65 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.6">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.7" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.66 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.7">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.8" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.67 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.8">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.9" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.68 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.9">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.10" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.69 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.10">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.11" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.70 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.11">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeControl0.12" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.71 //@terminologyPackage.0/@terminologyElement.156">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeControl0.12">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="other.0" value="other">
+      <name lang="English" content="other"/>
+      <description gid="Descother.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="lead.0" value="lead">
+      <name lang="English" content="lead"/>
+      <description gid="Desclead.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Failureofothercomponentswhichleadto.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.41 //@terminologyPackage.0/@terminologyElement.88 //@terminologyPackage.0/@terminologyElement.170 //@terminologyPackage.0/@terminologyElement.197 //@terminologyPackage.0/@terminologyElement.122 //@terminologyPackage.0/@terminologyElement.171 //@terminologyPackage.0/@terminologyElement.4">
+      <name lang="English" content="Failureofothercomponentswhichleadto"/>
+      <description gid="DescFailureofothercomponentswhichleadto.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="are.0" value="are">
+      <name lang="English" content="are"/>
+      <description gid="Descare.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="hazarduossoftwarefailuremodeareacceptable.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.91 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.93 //@terminologyPackage.0/@terminologyElement.94 //@terminologyPackage.0/@terminologyElement.173 //@terminologyPackage.0/@terminologyElement.29">
+      <name lang="English" content="hazarduossoftwarefailuremodeareacceptable"/>
+      <description gid="Deschazarduossoftwarefailuremodeareacceptable.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.44 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.45 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.2" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.46 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.3" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.47 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.3">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.4" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.48 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.4">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.5" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.49 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.5">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.6" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.50 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.6">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.7" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.51 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.7">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.8" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.52 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.8">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.9" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.53 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.9">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.10" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.54 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.10">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.11" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.55 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.11">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expAbsTypeSecondary0.12" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.172 //@terminologyPackage.0/@terminologyElement.56 //@terminologyPackage.0/@terminologyElement.174">
+      <name lang="English" content="0"/>
+      <description gid="DescexpAbsTypeSecondary0.12">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="All.0" value="All">
+      <name lang="English" content="All"/>
+      <description gid="DescAll.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="Allcausesofhazarduossoftwarefailuremode.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.188 //@terminologyPackage.0/@terminologyElement.87 //@terminologyPackage.0/@terminologyElement.88 //@terminologyPackage.0/@terminologyElement.91 //@terminologyPackage.0/@terminologyElement.92 //@terminologyPackage.0/@terminologyElement.93 //@terminologyPackage.0/@terminologyElement.94">
+      <name lang="English" content="Allcausesofhazarduossoftwarefailuremode"/>
+      <description gid="DescAllcausesofhazarduossoftwarefailuremode.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent.0" value="internal fault part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMEvent"/>
+      <description gid="DescHSFMEvent.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent.1" value="blury image left part vehicle computer" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMEvent"/>
+      <description gid="DescHSFMEvent.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent.2" value="fault part camera right" externalReference="/HAD/ODE.model">
+      <name lang="English" content="HSFMEvent"/>
+      <description gid="DescHSFMEvent.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="areacceptable.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.173 //@terminologyPackage.0/@terminologyElement.29">
+      <name lang="English" content="areacceptable"/>
+      <description gid="Descareacceptable.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expHSFMAccept0.0" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.189 //@terminologyPackage.0/@terminologyElement.190 //@terminologyPackage.0/@terminologyElement.193">
+      <name lang="English" content="0"/>
+      <description gid="DescexpHSFMAccept0.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expHSFMAccept0.1" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.189 //@terminologyPackage.0/@terminologyElement.191 //@terminologyPackage.0/@terminologyElement.193">
+      <name lang="English" content="0"/>
+      <description gid="DescexpHSFMAccept0.1">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Expression" gid="expHSFMAccept0.2" value="$&lt;ExpressionElement.value>$" element="//@terminologyPackage.0/@terminologyElement.189 //@terminologyPackage.0/@terminologyElement.192 //@terminologyPackage.0/@terminologyElement.193">
+      <name lang="English" content="0"/>
+      <description gid="DescexpHSFMAccept0.2">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="pComponents.0" value="components">
+      <description gid="DescpComponents.0">
+        <content/>
+      </description>
+    </terminologyElement>
+    <terminologyElement xsi:type="sacm2:Term" gid="ASIL.0" value="ASIL"/>
+  </terminologyPackage>
+</sacm2:AssuranceCasePackage>
