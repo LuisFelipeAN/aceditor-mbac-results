@@ -19,6 +19,12 @@
       <element xmi:type="sacm2:ArgumentPackage" href="default.sacm2#//@argumentPackage.1"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QEOjEkEjEe-_m-lJqjW-lw" x="530" y="432"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_4Fn7AEarEe-a8dqcxXJDUg" type="2012" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4Fn7A0arEe-a8dqcxXJDUg" type="5066"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_4Fn7AUarEe-a8dqcxXJDUg" diagramLink="_5AUBoEarEe-a8dqcxXJDUg" hint="Sacm2ArtifactPackage"/>
+      <element xmi:type="sacm2:ArtifactPackage" href="default.sacm2#//@artifactPackage.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4Fn7AkarEe-a8dqcxXJDUg" x="289" y="455"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_K0orAUEeEe-_m-lJqjW-lw"/>
     <element xmi:type="sacm2:AssuranceCasePackage" href="default.sacm2#/"/>
   </notation:Diagram>
@@ -205,5 +211,9 @@
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_861a4UEjEe-_m-lJqjW-lw"/>
     <element xmi:type="sacm2:ArgumentPackage" href="default.sacm2#//@argumentPackage.1"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_5AUBoEarEe-a8dqcxXJDUg" type="Sacm2ArtifactPackage" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5AUBoUarEe-a8dqcxXJDUg"/>
+    <element xmi:type="sacm2:ArtifactPackage" href="default.sacm2#//@artifactPackage.0"/>
   </notation:Diagram>
 </xmi:XMI>

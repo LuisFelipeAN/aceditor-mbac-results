@@ -455,7 +455,7 @@
         <value lang="English" content="This package contains all terms and expressions"/>
       </content>
     </description>
-    <terminologyElement xsi:type="sacm2:Term" gid="systemX" isAbstract="true" value="systemX" externalReference="/faulttree/system.xml">
+    <terminologyElement xsi:type="sacm2:Term" gid="systemX" isAbstract="true" value="systemX" externalReference="/HBS/system.xml">
       <name lang="English" content="systemX"/>
       <description gid="DescsystemX">
         <content/>
@@ -548,7 +548,7 @@
         </content>
       </implementationConstraint>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="operationalEnvironment" isAbstract="true" value="operationalEnvironment" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
+    <terminologyElement xsi:type="sacm2:Term" gid="operationalEnvironment" isAbstract="true" value="operationalEnvironment" externalReference="/HBS/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
       <description gid="desOperationalEnviroment">
         <content/>
       </description>
@@ -563,7 +563,7 @@
         </content>
       </implementationConstraint>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="systemDefinition" isAbstract="true" value="systemDefinition" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
+    <terminologyElement xsi:type="sacm2:Term" gid="systemDefinition" isAbstract="true" value="systemDefinition" externalReference="/HBS/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
       <description gid="descSystemDefinition">
         <content/>
       </description>
@@ -601,7 +601,7 @@
         </content>
       </implementationConstraint>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="safetyStandard" isAbstract="true" value="safetyStandard" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
+    <terminologyElement xsi:type="sacm2:Term" gid="safetyStandard" isAbstract="true" value="safetyStandard" externalReference="/HBS/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
       <description gid="descSafetyStandard">
         <content/>
       </description>
@@ -675,7 +675,7 @@
         <content/>
       </description>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="hazard" isAbstract="true" value="hazard" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
+    <terminologyElement xsi:type="sacm2:Term" gid="hazard" isAbstract="true" value="hazard" externalReference="/HBS/system.xml" origin="//@terminologyPackage.0/@terminologyElement.0">
       <name lang="English" content="hazard"/>
       <description gid="Deschazard">
         <content/>
@@ -714,7 +714,7 @@
         </content>
       </implementationConstraint>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="hazardSil" isAbstract="true" value="Sil" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
+    <terminologyElement xsi:type="sacm2:Term" gid="hazardSil" isAbstract="true" value="Sil" externalReference="/HBS/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
       <description gid="DescHazardSil">
         <content/>
       </description>
@@ -729,7 +729,7 @@
         </content>
       </implementationConstraint>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="failureCondition" isAbstract="true" value="failureCondition" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
+    <terminologyElement xsi:type="sacm2:Term" gid="failureCondition" isAbstract="true" value="failureCondition" externalReference="/HBS/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
       <description gid="DescFailureCondition">
         <content/>
       </description>
@@ -809,7 +809,7 @@
         <content/>
       </description>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType" isAbstract="true" value="HSFMType" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.28">
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMType" isAbstract="true" value="HSFMType" externalReference="/HBS/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.28">
       <name lang="English" content="HSFMType"/>
       <description gid="DescHSFMType">
         <content/>
@@ -842,7 +842,7 @@
         <content/>
       </description>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="CSF" isAbstract="true" value="CSF" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
+    <terminologyElement xsi:type="sacm2:Term" gid="CSF" isAbstract="true" value="CSF" externalReference="/HBS/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
       <name lang="English" content="CSF"/>
       <description gid="DescCSF">
         <content/>
@@ -869,7 +869,7 @@
         </content>
       </implementationConstraint>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="hzdComponents" isAbstract="true" value="components" externalReference="/faulttree/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
+    <terminologyElement xsi:type="sacm2:Term" gid="hzdComponents" isAbstract="true" value="components" externalReference="/HBS/system.xml" origin="//@terminologyPackage.0/@terminologyElement.28">
       <description gid="DescTermComponents">
         <content/>
       </description>
@@ -903,7 +903,7 @@
         <content/>
       </description>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="type" isAbstract="true" value="type" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
+    <terminologyElement xsi:type="sacm2:Term" gid="type" isAbstract="true" value="type" externalReference="/HBS/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
       <name lang="English" content="type"/>
       <description gid="Desctype">
         <content/>
@@ -1188,7 +1188,7 @@
         <content/>
       </description>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent" isAbstract="true" value="HSFMEvent" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
+    <terminologyElement xsi:type="sacm2:Term" gid="HSFMEvent" isAbstract="true" value="HSFMEvent" externalReference="/HBS/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
       <name lang="English" content="HSFMEvent"/>
       <description gid="DescHSFMEvent">
         <content/>
@@ -1221,7 +1221,7 @@
         </content>
       </implementationConstraint>
     </terminologyElement>
-    <terminologyElement xsi:type="sacm2:Term" gid="hsfmSil" isAbstract="true" value="Sil" externalReference="/faulttree/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
+    <terminologyElement xsi:type="sacm2:Term" gid="hsfmSil" isAbstract="true" value="Sil" externalReference="/HBS/ODE.model" origin="//@terminologyPackage.0/@terminologyElement.44">
       <description gid="DesCTermHSFMSil">
         <content/>
       </description>

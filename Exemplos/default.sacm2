@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sacm2:AssuranceCasePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sacm2="http://SACM_ACEditor/sacm/2.1">
+  <artifactPackage/>
   <terminologyPackage gid="TerminologyPackage">
     <description>
       <content/>
