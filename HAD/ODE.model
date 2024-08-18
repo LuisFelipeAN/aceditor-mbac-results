@@ -2,25 +2,29 @@
 <integration_:DDIPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:failureLogic_="http://www.deis-project.eu/ode/mergedODE/failureLogic" xmlns:integration_="http://www.deis-project.eu/ode/mergedODE/integration" xmi:id="_T2lTUESlEe-ahbQCqsC-fA" name="DDIPackage">
   <odeProductPackages xsi:type="failureLogic_:FailureLogicPackage" xmi:id="_WvTM4ESlEe-ahbQCqsC-fA" Id="1" name="FailureLogicPackage" description="">
     <failureModels xsi:type="failureLogic_:FaultTree" xmi:id="_fKl-MESlEe-ahbQCqsC-fA" Id="2" name="Hazarduos Movement">
-      <failures xmi:id="_h4r8EFjxEe-UyNnsHkJu0A" name="Hazarduos Movement" originType="Internal"/>
-      <failures xmi:id="_so7ykFjxEe-UyNnsHkJu0A" name="wrong longitudinal movement" isCcf="true"/>
-      <failures xmi:id="_uuwPkFjxEe-UyNnsHkJu0A" name="wrong lateral movement" originType="Internal" isCcf="true"/>
-      <failures xmi:id="_wXRskFjxEe-UyNnsHkJu0A" name="wrong lateral movement part steering" originType="Internal"/>
-      <failures xmi:id="_x38OEFjxEe-UyNnsHkJu0A" name="wrong wheel movement part powertrain" originType="Internal"/>
-      <failures xmi:id="_T40ScFjyEe-UyNnsHkJu0A" name="wrong steering angle part steering" originType="Internal"/>
-      <failures xmi:id="_paPMgFjyEe-UyNnsHkJu0A" name="powertrain torque error part powertrain" originType="Internal" isCcf="true"/>
+      <failures xmi:id="_h4r8EFjxEe-UyNnsHkJu0A" name="Hazarduos Movement" originType="Internal" failureClass="Value"/>
+      <failures xmi:id="_so7ykFjxEe-UyNnsHkJu0A" name="wrong longitudinal movement" failureClass="Value" isCcf="true"/>
+      <failures xmi:id="_uuwPkFjxEe-UyNnsHkJu0A" name="wrong lateral movement" originType="Internal" failureClass="Value" isCcf="true"/>
+      <failures xmi:id="_wXRskFjxEe-UyNnsHkJu0A" name="wrong lateral movement part steering" originType="Internal" failureClass="Value"/>
+      <failures xmi:id="_x38OEFjxEe-UyNnsHkJu0A" name="wrong wheel movement part powertrain" originType="Internal" failureClass="Value"/>
+      <failures xmi:id="_T40ScFjyEe-UyNnsHkJu0A" name="wrong steering angle part steering" originType="Internal" failureClass="Value"/>
+      <failures xmi:id="_paPMgFjyEe-UyNnsHkJu0A" name="powertrain torque error part powertrain" originType="Internal" failureClass="Value" isCcf="true"/>
       <failures xmi:id="_u7ywkFjyEe-UyNnsHkJu0A" name="wrong angle part vehicle computer" originType="Output" failureClass="Value"/>
       <failures xmi:id="_2_dsEFjyEe-UyNnsHkJu0A" name="too high torque part vehicle computer" originType="Output" failureClass="Value"/>
       <failures xmi:id="_969ekFjyEe-UyNnsHkJu0A" name="too low torque part vehicle computer" originType="Output" failureClass="Value"/>
-      <failures xmi:id="_EUDHkFjzEe-UyNnsHkJu0A" name="internal fault part vehicle computer" originType="Internal"/>
-      <failures xmi:id="_IDw6kFjzEe-UyNnsHkJu0A" name="blury image part vehicle computer" originType="Internal"/>
-      <failures xmi:id="_SoLUgFjzEe-UyNnsHkJu0A" name="blury image left part vehicle computer" originType="Internal" isCcf="true"/>
-      <failures xmi:id="_YRvlEFjzEe-UyNnsHkJu0A" name="blury image right part vehicle computer" originType="Internal" isCcf="true"/>
-      <failures xmi:id="_eg-ugFjzEe-UyNnsHkJu0A" name="blury image part camera left" originType="Internal"/>
-      <failures xmi:id="_n5k1kFjzEe-UyNnsHkJu0A" name="blury image part camera right" originType="Internal"/>
+      <failures xmi:id="_EUDHkFjzEe-UyNnsHkJu0A" name="internal fault part vehicle computer" originType="Internal" failureClass=""/>
+      <failures xmi:id="_IDw6kFjzEe-UyNnsHkJu0A" name="blury image part vehicle computer" originType="Internal" failureClass="Value"/>
+      <failures xmi:id="_SoLUgFjzEe-UyNnsHkJu0A" name="blury image left part vehicle computer" originType="Internal" failureClass="Value" isCcf="true"/>
+      <failures xmi:id="_YRvlEFjzEe-UyNnsHkJu0A" name="blury image right part vehicle computer" originType="Internal" failureClass="Value" isCcf="true"/>
+      <failures xmi:id="_eg-ugFjzEe-UyNnsHkJu0A" name="blury image part camera left" originType="Internal" failureClass="Value"/>
+      <failures xmi:id="_n5k1kFjzEe-UyNnsHkJu0A" name="blury image part camera right" originType="Internal" failureClass="Value"/>
       <failures xmi:id="_rn13EFjzEe-UyNnsHkJu0A" name="fault part camera left" originType="Internal" failureClass="Value"/>
       <failures xmi:id="_tCpBIFjzEe-UyNnsHkJu0A" name="fault part camera right" originType="Internal" failureClass="Value"/>
-      <causes xsi:type="failureLogic_:Gate" xmi:id="_oPhCoFjuEe-UyNnsHkJu0A" name="Hazarduos Movement" description="Hazarduos Movement TOP-EVENT" causeType="Gate" failure="_h4r8EFjxEe-UyNnsHkJu0A" causes="_1dYLEFjuEe-UyNnsHkJu0A _vxmUAFjuEe-UyNnsHkJu0A"/>
+      <causes xsi:type="failureLogic_:Gate" xmi:id="_oPhCoFjuEe-UyNnsHkJu0A" name="Hazarduos Movement" description="Hazarduos Movement TOP-EVENT" causeType="Gate" failure="_h4r8EFjxEe-UyNnsHkJu0A" causes="_1dYLEFjuEe-UyNnsHkJu0A _vxmUAFjuEe-UyNnsHkJu0A">
+        <keyValueMaps xmi:id="_zkTqEF2jEe-Eqo3k4fQuHw" key="sil">
+          <values xmi:id="_2ye2QF2jEe-Eqo3k4fQuHw" tag="Safety Requirement" value="D"/>
+        </keyValueMaps>
+      </causes>
       <causes xsi:type="failureLogic_:Gate" xmi:id="_vxmUAFjuEe-UyNnsHkJu0A" name="wrong longitudinal movement" description="wrong longitudinal movement" causeType="Gate" failure="_so7ykFjxEe-UyNnsHkJu0A" gateType="AND" causes="_YZK_kFjvEe-UyNnsHkJu0A"/>
       <causes xsi:type="failureLogic_:Gate" xmi:id="_1dYLEFjuEe-UyNnsHkJu0A" name="wrong lateral movement" description="wrong lateral movement" causeType="Gate" failure="_uuwPkFjxEe-UyNnsHkJu0A" gateType="AND" causes="_Q7klkFjvEe-UyNnsHkJu0A"/>
       <causes xsi:type="failureLogic_:Gate" xmi:id="_Q7klkFjvEe-UyNnsHkJu0A" name="wrong lateral movement part steering" description="wrong lateral movement part steering" causeType="Gate" failure="_wXRskFjxEe-UyNnsHkJu0A" gateType="AND" causes="_fUNfEFjvEe-UyNnsHkJu0A"/>

@@ -74,7 +74,7 @@
     </children>
     <children xmi:type="notation:Shape" xmi:id="_KfxOweBQEe21JJmgX1ZkOg" type="2010" fontName="Arial" bold="true" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_KfxOxOBQEe21JJmgX1ZkOg" type="5064"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_KfxOwuBQEe21JJmgX1ZkOg" hint="Sacm2ArgumentPackage"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_KfxOwuBQEe21JJmgX1ZkOg" diagramLink="_EZPDAF2oEe-Eqo3k4fQuHw" hint="Sacm2ArgumentPackage"/>
       <element xmi:type="sacm2:ArgumentPackage" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.9"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KfxOw-BQEe21JJmgX1ZkOg" x="2700"/>
     </children>
@@ -128,7 +128,7 @@
     </children>
     <children xmi:type="notation:Shape" xmi:id="_Kfyc6OBQEe21JJmgX1ZkOg" type="2010" fontName="Arial" bold="true" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_Kfyc6-BQEe21JJmgX1ZkOg" type="5064"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Kfyc6eBQEe21JJmgX1ZkOg" hint="Sacm2ArgumentPackage"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Kfyc6eBQEe21JJmgX1ZkOg" diagramLink="_Ah55YFj4Ee-UyNnsHkJu0A" hint="Sacm2ArgumentPackage"/>
       <element xmi:type="sacm2:ArgumentPackage" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kfyc6uBQEe21JJmgX1ZkOg" x="5400"/>
     </children>
@@ -1723,5 +1723,103 @@
   <notation:Diagram xmi:id="_YNE6MCK-Ee-YUfSGP0WH-Q" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
     <styles xmi:type="notation:DiagramStyle" xmi:id="_YNE6MSK-Ee-YUfSGP0WH-Q"/>
     <element xmi:type="sacm2:ArgumentPackage" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.3"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Ah55YFj4Ee-UyNnsHkJu0A" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_AjqM4Fj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ajqz8Fj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjqM4Vj4Ee-UyNnsHkJu0A" x="540" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ajqz8Vj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ajqz81j4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ajqz8lj4Ee-UyNnsHkJu0A" x="720" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ajqz9Fj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ajqz9lj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ajqz9Vj4Ee-UyNnsHkJu0A" x="900" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ajqz91j4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ajqz-Vj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.3"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ajqz-Fj4Ee-UyNnsHkJu0A" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ajqz-lj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ajqz_Fj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.4"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ajqz-1j4Ee-UyNnsHkJu0A" x="180" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ajqz_Vj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ajqz_1j4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.5"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ajqz_lj4Ee-UyNnsHkJu0A" x="360" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Ajq0AFj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AjrbAFj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.6"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ajq0AVj4Ee-UyNnsHkJu0A" x="2340" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjrbAVj4Ee-UyNnsHkJu0A" type="2005" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AjrbA1j4Ee-UyNnsHkJu0A" type="5005"/>
+      <element xmi:type="sacm2:ArgumentReasoning" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.7"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjrbAlj4Ee-UyNnsHkJu0A" x="1620" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjrbBFj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AjrbBlj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.8"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjrbBVj4Ee-UyNnsHkJu0A" x="1080" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjrbB1j4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AjrbCVj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.9"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjrbCFj4Ee-UyNnsHkJu0A" x="1440" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjrbClj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AjrbDFj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.10"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjrbC1j4Ee-UyNnsHkJu0A" x="1260" y="68"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjrbDVj4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AjrbD1j4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.11"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjrbDlj4Ee-UyNnsHkJu0A" x="1780" y="195" width="211"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjrbEFj4Ee-UyNnsHkJu0A" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.12"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjrbEVj4Ee-UyNnsHkJu0A" x="326"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjsCEFj4Ee-UyNnsHkJu0A" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.13"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjsCEVj4Ee-UyNnsHkJu0A" x="776"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjsCElj4Ee-UyNnsHkJu0A" type="2005" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AjsCFFj4Ee-UyNnsHkJu0A" type="5005"/>
+      <element xmi:type="sacm2:ArgumentReasoning" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.14"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjsCE1j4Ee-UyNnsHkJu0A" x="1990" y="25"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjsCFVj4Ee-UyNnsHkJu0A" type="2012" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedInference" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.15"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjsCFlj4Ee-UyNnsHkJu0A" x="1316"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjsCF1j4Ee-UyNnsHkJu0A" type="2012" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedInference" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.16"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjsCGFj4Ee-UyNnsHkJu0A" x="1901"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjsCGVj4Ee-UyNnsHkJu0A" type="2010" fontName="Arial" bold="true" lineColor="0">
+      <element xmi:type="sacm2:AssertedContext" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.17"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjsCGlj4Ee-UyNnsHkJu0A" x="2036"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_AjsCG1j4Ee-UyNnsHkJu0A" type="2001" fontName="Arial" bold="true" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AjsCHVj4Ee-UyNnsHkJu0A" type="5001"/>
+      <element xmi:type="sacm2:Claim" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18/@argumentationElement.18"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AjsCHFj4Ee-UyNnsHkJu0A" x="2160" y="68"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Ah55YVj4Ee-UyNnsHkJu0A"/>
+    <element xmi:type="sacm2:ArgumentPackage" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.18"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_EZPDAF2oEe-Eqo3k4fQuHw" type="Sacm2ArgumentPackage" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_EZPDAV2oEe-Eqo3k4fQuHw"/>
+    <element xmi:type="sacm2:ArgumentPackage" href="INSTANTIATED_21-04-2023_11-23-42_case_study.sacm2#//@assuranceCasePackage.0/@argumentPackage.9"/>
   </notation:Diagram>
 </xmi:XMI>
